@@ -20,29 +20,29 @@ DropdownMenuSeparator,
 DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-export function DropdownMenuDemo() {
+export function DropdownTwo() {
 return (
     <DropdownMenu>
     <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="lg">Events</Button>
+        <Button variant="outline" size="lg">Resources</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel className="text-lg font-medium">Monthly Ignite</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-lg font-medium">Audio messages</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
         <DropdownMenuItem>
             {/* <User className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Our Faith</span>
+            <span className="text-lg font-medium">Our Faith letters</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             {/* <CreditCard className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Global Outreach</span>
+            <span className="text-lg font-medium">E-books</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             {/* <Settings className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Prayer drills</span>
+            <span className="text-lg font-medium">Streams</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         </DropdownMenuGroup>
@@ -50,4 +50,3 @@ return (
     </DropdownMenu>
 )
 }
-

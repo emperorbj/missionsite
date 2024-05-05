@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import { DropdownMenuDemo } from './DropdownMenuDemo';
+import { DropdownTwo } from './DropdownTwo';
 
 const Navbar = () => {
     return (
@@ -18,8 +19,8 @@ const Navbar = () => {
                 <Link to="/contact" className='bg-orange-400 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
                     < button>Contact us</ button>
                 </Link>
-                <Link to="/resources" className='bg-orange-400 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
-                    < button>Resources</ button>
+                <Link to="/resources">
+                    <DropdownTwo/>
                 </Link>
                 <Link to="/events">
                     <DropdownMenuDemo/>
