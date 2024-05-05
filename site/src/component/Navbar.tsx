@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import { DropdownMenuDemo } from './DropdownMenuDemo';
 
 const Navbar = () => {
     return (
@@ -20,9 +21,10 @@ const Navbar = () => {
                 <Link to="/resources" className='bg-orange-400 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
                     < button>Resources</ button>
                 </Link>
-                <Link to="/events" className='bg-orange-400 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
-                    < button>Events</ button>
+                <Link to="/events">
+                    <DropdownMenuDemo/>
                 </Link>
+                
             </div>
         </nav>
     )
