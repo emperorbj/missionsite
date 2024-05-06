@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
     return (
-        <div className='h-[550px] w-full'>
+        <div className='h-[550px] w-full z-10'>
             <Navbar/>
             <img className='mt-[-80px]' src={HeaderPix} style={{
             height:'100%',
