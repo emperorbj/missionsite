@@ -9,7 +9,7 @@ const Cards = () => {
             {/* card container */}
             <div className='flex gap-10 px-[30px] pb-[10px] h-[500px]'>
                 {/* Each card design */}
-                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg'>
+                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg hover:scale-110' style={{transition:'1s',}}>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="card-image" />
                     </div>
@@ -23,7 +23,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg'>
+                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg hover:scale-110' style={{transition:'1s',}}>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="card-image" />
                     </div>
@@ -37,7 +37,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg'>
+                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg hover:scale-110' style={{transition:'1s',}}>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt="card-image" />
                     </div>
