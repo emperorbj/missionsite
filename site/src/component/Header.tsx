@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
     return (
-        <div>
+        <div className='bg-slate-500 h-[30%]'>
             <Navbar/>
         </div>
     )

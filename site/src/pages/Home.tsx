@@ -1,9 +1,8 @@
-import Header from '@/component/Header'
-import React from 'react'
+import Header from '@/component/Header';
 
 const Home = () => {
     return (
-        <div>
+        <div className='w-full h-screen bg-green-700'>
             <Header/>
         </div>
     )

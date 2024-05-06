@@ -5,7 +5,7 @@ import { DropdownTwo } from './DropdownTwo';
 
 const Navbar = () => {
     return (
-        <nav className='flex items-center justify-between w-full h-[80px] bg-purple-600'>
+        <nav className='flex items-center justify-between w-full h-[80px] bg-purple-600 z-30'>
             <div className='bg-red-400 w-[100px]  px-[10px]  mx-10 text-3xl'>
                 logo
             </div>
