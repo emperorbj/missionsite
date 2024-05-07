@@ -7,7 +7,7 @@ const Cards = () => {
         <section className='flex flex-col'>
             <h1 className='text-2xl font-bold text-center my-[20px]'> OUR CORE MISSION AND VISION</h1>
             {/* card container */}
-            <div className='flex gap-10 px-[30px] pb-[10px] h-[500px]'>
+            <div className='flex gap-10 px-[30px] h-[500px]'>
                 {/* Each card design */}
                 <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg hover:scale-110' style={{transition:'1s',}}>
                     <div className='h-[260px]' >
