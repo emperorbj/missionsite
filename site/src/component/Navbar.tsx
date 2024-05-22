@@ -27,6 +27,7 @@ const Navbar = () => {
                 <Link to="/events">
                     <DropdownMenuDemo/>
                 </Link>
+
                 
             </div>
         </nav>
