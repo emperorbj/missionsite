@@ -9,7 +9,8 @@ const Cards = () => {
             {/* card container */}
             <div className='flex gap-10 px-[30px] h-[500px]'>
                 {/* Each card design */}
-                <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg' style={{transition:'1s',}}>
+                <motion.div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg' initial={{ opacity: 0 }}
+                    animate={{ rotate: 45}} style={{transition:'1s'}}>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="card-image" />
                     </div>
@@ -21,7 +22,7 @@ const Cards = () => {
                             mollitia error voluptatibus aspernatur delectus ea qui nihil 
                             praesentium?</p>
                     </div>
-                </div>
+                </motion.div>
 
                 <div className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg' style={{transition:'1s',}}>
                     <div className='h-[260px]'>
