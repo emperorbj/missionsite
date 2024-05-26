@@ -57,11 +57,11 @@ const Cards = () => {
                     whileInView={{ x: 0, opacity: 1}} 
                     transition={{ duration: 3.5, ease: "easeOut" }}
                     >
-                    <div className='h-[260px]'>
-                        <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt="card-image" />
+                    <div className='h-[260px]' >
+                        <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="card-image" />
                     </div>
                     <div>
-                        <h1 className='text-center text-2xl font-medium'>Outreach</h1>
+                        <h1 className='text-center text-2xl font-medium'>Training</h1>
                         <p className='px-[20px] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Corrupti labore voluptatem voluptatum adipisci tenetur
                             placeat veniam iusto ducimus repellat blanditiis eveniet, 
@@ -77,10 +77,10 @@ const Cards = () => {
                     transition={{ duration: 3.5, ease: "easeOut" }}
                     >
                     <div className='h-[260px]'>
-                        <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt="card-image" />
+                        <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="card-image" />
                     </div>
                     <div>
-                        <h1 className='text-center text-2xl font-medium'>Outreach</h1>
+                        <h1 className='text-center text-2xl font-medium'>Prayers</h1>
                         <p className='px-[20px] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Corrupti labore voluptatem voluptatum adipisci tenetur
                             placeat veniam iusto ducimus repellat blanditiis eveniet, 
