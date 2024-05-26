@@ -1,7 +1,7 @@
 import Training from '../assets/training.jpg';
 import Prayer from '../assets/prayer.jpg';
 import Outreach from '../assets/outreach.jpg';
-
+import { motion } from "framer-motion"
 const Cards = () => {
     return (
         <section className='flex flex-col'>
