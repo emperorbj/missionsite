@@ -1,10 +1,10 @@
 // import HeaderPix from '../assets/header1.jpg';
 import Navbar from './Navbar'
-import video from '../assets/video.mp4'
+import video from '../assets/video (1).mp4'
 
 const Header = () => {
     return (
-        <div className='h-[700px] w-full z-10'>
+        <div className='h-[700px] w-full'>
             <Navbar/>
 
             <div className='w-full h-[600px]'>
