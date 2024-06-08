@@ -1,15 +1,16 @@
-import HeaderPix from '../assets/header1.jpg';
+// import HeaderPix from '../assets/header1.jpg';
 import Navbar from './Navbar'
+import video from '../assets/video.mp4'
 
 const Header = () => {
     return (
-        <div className='h-[600px] w-full z-10'>
+        <div className='h-[700px] w-full z-10'>
             <Navbar/>
-            <img className='mt-[-80px]' src={HeaderPix} style={{
-            height:'100%',
-            width:'100%',
-            objectPosition:'center',
-            objectFit:'cover'}} alt="header background" />
+
+            <div className='w-full h-[600px]'>
+                <video style={{width:'100%', height:'100%', objectFit:'cover'}} src={video} autoPlay muted loop/>
+            </div>
+            
         </div>
     )
 }
