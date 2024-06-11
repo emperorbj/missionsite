@@ -5,7 +5,7 @@ import Outreach from '../assets/outreach (1).jpg';
 const Cards = () => {
     return (
         <section className='flex flex-col'>
-            <h1 className='text-2xl font-bold text-center my-[20px]'> OUR CORE MISSION AND VISION</h1>
+            <h1 className='text-2xl font-bold text-center mt-[200px] mb-[50px]'> OUR CORE MISSION AND VISION</h1>
             {/* card container */}
             <div className='flex gap-10 px-[30px] h-[500px]'>
                 {/* Each card design */}
