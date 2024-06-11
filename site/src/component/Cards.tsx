@@ -52,7 +52,7 @@ const Cards = () => {
                     </div>
                 </div> */}
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg'>
+                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg'>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="" />
                     </div>
@@ -67,7 +67,7 @@ const Cards = () => {
                     </div>
 
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg'>
+                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg'>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="" />
                     </div>
@@ -82,7 +82,7 @@ const Cards = () => {
                 </div>
 
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 rounded-xl shadow-lg' >
+                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg' >
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt='' />
                     </div>

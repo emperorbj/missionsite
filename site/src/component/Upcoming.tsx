@@ -14,7 +14,7 @@ const Upcoming = () => {
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur eveniet deserunt iste aliquid deleniti libero 
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero 
                     </p>
-                    <button className='bg-blue-400 py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
+                    <button className='bg-gradient-to-r from-slate-50 to-sky-200 rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>
@@ -31,7 +31,7 @@ const Upcoming = () => {
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur eveniet deserunt iste aliquid deleniti libero 
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero 
                     </p>
-                    <button className='bg-blue-400 py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
+                    <button className='bg-gradient-to-r from-slate-50 to-sky-200 rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>

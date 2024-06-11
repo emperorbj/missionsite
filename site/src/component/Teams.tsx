@@ -5,7 +5,7 @@ import person4 from '../assets/person4.jpg';
 
 const Teams = () => {
     return (
-        <div className="h-[800px] mt-[180px]">
+        <div className="h-[800px] mt-[180px] mb-[100px]">
             <div className="py-[30px]">
                 <h1 className='text-4xl text-center'>Team Leaders</h1>
             </div>
