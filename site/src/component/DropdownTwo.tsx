@@ -27,7 +27,7 @@ return (
         <Button variant="outline" size="lg">Resources</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel className="text-lg font-medium">Audio messages</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xl font-bold">Resources here</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
         <DropdownMenuItem>

@@ -27,7 +27,7 @@ return (
         <Button variant="outline" size="lg">Events</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel className="text-lg font-medium">Monthly Ignite</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xl font-bold">Monthly Program</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
         <DropdownMenuItem>
