@@ -7,7 +7,7 @@ import Sponsors from '@/component/Sponsors';
 import Footer from '@/component/Footer';
 const Home = () => {
     return (
-        <div className=' w-full h-screen'>
+        <div className=' w-full'>
             <Header/>
             <Cards/>
             <div className='text-center font-semibold text-xl my-[60px] border-t-2 pt-[50px]'>
