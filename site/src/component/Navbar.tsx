@@ -5,7 +5,7 @@ import { DropdownTwo } from './DropdownTwo';
 
 const Navbar = () => {
     return (
-        <nav className='fixed top-0 left-0 flex items-center justify-between w-full h-[80px] bg-white/30 backdrop-blur-lg shadow-lg z-30'>
+        <nav className='fixed top-0 left-0 flex items-center justify-between w-full h-[60px] bg-white/30 backdrop-blur-lg shadow-lg z-30'>
             <Link to='/'>
                 <div className='w-[100px]  px-[10px]  mx-10 text-3xl'>
                     logo
@@ -13,7 +13,7 @@ const Navbar = () => {
             </Link>
             <div className='flex gap-[100px] mr-[60px]'>
                 <Link to="/" className='hover:border hover:border-input hover:bg-white/20 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
-                    < button>Home</ button>
+                    <button>Home</button>
                 </Link>
                 <Link to="/about" className='hover:border hover:border-input hover:bg-white/20 w-[110px] text-center text-lg font-bold rounded-lg py-[12px]  px-[10px] '>
                     < button>About us</ button>
