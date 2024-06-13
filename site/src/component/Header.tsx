@@ -13,7 +13,7 @@ const Header = () => {
                 <div className='text-center text-white'>
                     <h1 className='text-5xl font-bold'>Welcome to Our Site</h1>
                     <p className='mt-4 text-xl'>Your Success Begins Here</p>
-                    <button className='text-[20px] font-bold mt-[30px] rounded-[10px] py-[14px] px-[60px] bg-sky-500 shadow-sky-500 shadow-md '>Join us</button>
+                    <button className='text-[20px] font-bold mt-[30px] rounded-[10px] py-[14px] px-[60px] bg-sky-400 hover:bg-gradient-to-r from-green-500 to-sky-500 '>Join us</button>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ import Prayer from '../assets/prayer (1).jpg';
 import Outreach from '../assets/outreach (1).jpg';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Glow, GlowCapture } from '@codaworks/react-glow'
 import { useEffect } from 'react';
 
 
@@ -16,10 +17,12 @@ const Cards = () => {
         <section className='flex flex-col'>
             <h1 className='text-2xl font-bold text-center mt-[200px] mb-[50px]'> OUR CORE MISSION AND VISION</h1>
             {/* card container */}
+            <GlowCapture>
             <div className='flex gap-10 px-[30px] h-[500px]'>
                 {/* Each card design */}
+                <Glow color='blue'>
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg'data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
+                    className='flex flex-col glow:text-glow/50 glow:bg-sky-400 bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="" />
                     </div>
@@ -31,10 +34,12 @@ const Cards = () => {
                             mollitia error voluptatibus aspernatur delectus ea qui nihil 
                             praesentium?</p>
                     </div>
-                    </div>
+                </div>
+                </Glow>
 
+                <Glow color='green'>
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='zoom-in'>
+                    className='flex flex-col  glow:text-glow/50 glow:bg-green-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='zoom-in'>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="" />
                     </div>
@@ -47,9 +52,11 @@ const Cards = () => {
                             praesentium?</p>
                     </div>
                 </div>
+                </Glow>
 
+                <Glow color='purple'>
                 <div 
-                    className='flex flex-col h-[460px] border-2 bg-slate-100 bg-gradient-to-r from-slate-50 to-sky-100 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='fade-left'>
+                    className='flex flex-col glow:text-glow/50 glow:bg-pink-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='fade-left'>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt='' />
                     </div>
@@ -62,7 +69,10 @@ const Cards = () => {
                             praesentium?</p>
                     </div>
                 </div>
+                </Glow>
             </div>
+            </GlowCapture>
+            
         </section>
     )
 }

@@ -10,7 +10,7 @@ const Home = () => {
         <div className=' w-full'>
             <Header/>
             <Cards/>
-            <div className='text-center font-semibold text-xl my-[60px] border-t-2 pt-[50px]'>
+            <div className='text-center font-semibold text-xl my-[40px] pt-[50px]'>
                 OUR UPCOMING PROGRAMS
             </div>
             <Upcoming/>
