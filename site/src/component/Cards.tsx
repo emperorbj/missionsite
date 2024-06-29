@@ -1,7 +1,6 @@
 import Training from '../assets/training.jpg';
 import Prayer from '../assets/prayer (1).jpg';
 import Outreach from '../assets/outreach (1).jpg';
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Glow, GlowCapture } from '@codaworks/react-glow'
 import { useEffect } from 'react';
@@ -10,7 +9,7 @@ import { useEffect } from 'react';
 const Cards = () => {
 
     useEffect(() => {
-        AOS.init();
+        
     },[])
 
     return (
@@ -22,7 +21,7 @@ const Cards = () => {
                 {/* Each card design */}
                 <Glow color='blue'>
                 <div 
-                    className='flex flex-col glow:text-glow/50 glow:bg-sky-400 bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
+                    className='flex flex-col glow:text-glow/50 glow:bg-sky-400 bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="" />
                     </div>
@@ -39,7 +38,7 @@ const Cards = () => {
 
                 <Glow color='green'>
                 <div 
-                    className='flex flex-col  glow:text-glow/50 glow:bg-green-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='zoom-in'>
+                    className='flex flex-col  glow:text-glow/50 glow:bg-green-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="" />
                     </div>
@@ -56,7 +55,7 @@ const Cards = () => {
 
                 <Glow color='purple'>
                 <div 
-                    className='flex flex-col glow:text-glow/50 glow:bg-pink-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250" data-aos='fade-left'>
+                    className='flex flex-col glow:text-glow/50 glow:bg-pink-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
                     <div className='h-[260px]'>
                         <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt='' />
                     </div>

@@ -1,84 +1,76 @@
-import person1 from '../assets/person1.jpg';
-import person2 from '../assets/person2.jpg';
-import person3 from '../assets/person3.jpg';
-import person4 from '../assets/person4.jpg';
+
+
+const team = [
+    {
+        id: 1,
+        name: "Cynthia Cane",
+        role: "Founder/CEO",
+        image: "/team1.jpg"
+
+    },
+    {
+        id: 2,
+        name: "Ameliat Cane",
+        role: "Head of Product Design",
+        image: "/team2.jpg"
+
+    },
+    {
+        id: 3,
+        name: "Busola Cane",
+        role: "Head of Education",
+        image: "/team3.jpg",
+
+    },
+    {
+        id: 4,
+        name: "Chike",
+        role: "Head of AI",
+        image: "/team4.jpg"
+
+    },
+    {
+        id: 4,
+        name: "Charles",
+        role: "CTO",
+        image: "/person1.jpg"
+
+    },
+    {
+        id: 4,
+        name: "John Doe",
+        role: "CFO",
+        image: "/person3.jpg",
+
+    },
+]
 
 const Teams = () => {
     return (
-        <div className="h-[800px] mt-[180px] mb-[100px]">
-            <div className="py-[30px]">
-                <h1 className='text-4xl text-center'>Team Leaders</h1>
+        <div className="bg-white py-24 sm:py-32 mx-[60px] mt-[20px] rounded-[10px]">
+        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+            <div className="max-w-2xl">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                    Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
+                    suspendisse.
+                </p>
             </div>
-            <div className=" h-[800px] grid grid-cols-4 pt-[30px] px-[80px]">
-                <div className=" rounded-[30px] pt-[20px] w-[300px] h-[370px]">
-                    <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                        <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person1} alt="" />
-                    </div>
-                    <div>
-                        <h1 className='text-center text-[30px]'>Full name</h1>
-                        <p className='text-center text-[25px]'>title</p>
-                    </div>
-                </div>
-                <div className=" rounded-[30px] pt-[20px] w-[300px] h-[370px]">
-                <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                        <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person2} alt="" />
-                    </div>
-                    <div>
-                        <h1 className='text-center text-[30px]'>Full name</h1>
-                        <p className='text-center text-[25px]'>title</p>
-                    </div>
-                </div>
-                <div className=" rounded-[30px] pt-[20px] w-[300px] h-[370px]">
-                <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                        <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person3} alt="" />
-                    </div>
-                    <div>
-                        <h1 className='text-center text-[30px]'>Full name</h1>
-                        <p className='text-center text-[25px]'>title</p>
-                    </div>
-                </div>
-                <div className=" rounded-[30px] pt-[20px] w-[300px] h-[370px]">
-                <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                        <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person4} alt="" />
-                    </div>
-                    <div>
-                        <h1 className='text-center text-[30px]'>Full name</h1>
-                        <p className='text-center text-[25px]'>title</p>
-                    </div>
-                </div>
-                {/* downward team members */}
-                <div className='flex  ml-[240px] gap-[70px]'>
-                    <div className=" rounded-[30px] pt-[20px] w-[330px] h-[370px]">
-                    <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                            <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person3} alt="" />
+            <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+                {team.map((person) => (
+                    <li key={person.id}>
+                        <div className="flex items-center gap-x-6">
+                            <img className="h-20 w-20 rounded-full object-cover " src={person.image} alt="" />
+                            <div>
+                                <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
+                                <p className="text-sm font-semibold leading-6 text-blue-500">{person.role}</p>
+                            </div>
                         </div>
-                        <div>
-                            <h1 className='text-center text-[30px]'>Full name</h1>
-                            <p className='text-center text-[25px]'>title</p>
-                        </div>
-                    </div>
-                    <div className=" rounded-[30px] pt-[20px] w-[330px] h-[370px]">
-                    <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                            <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person4} alt="" />
-                        </div>
-                        <div>
-                            <h1 className='text-center text-[30px]'>Full name</h1>
-                            <p className='text-center text-[25px]'>title</p>
-                        </div>
-                    </div>
-                    <div className="  rounded-[30px] pt-[20px] w-[330px] h-[370px]">
-                    <div className='w-[250px] h-[250px] py-[10px] m-auto rounded-[50%]'>
-                            <img className=' rounded-[50%] object-cover w-[100%] h-[100%]' src={person2} alt="" />
-                        </div>
-                        <div>
-                            <h1 className='text-center text-[30px]'>Full name</h1>
-                            <p className='text-center text-[25px]'>title</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </li>
+                ))}
+            </ul>
         </div>
-
+    </div>
     )
 }
 
