@@ -7,6 +7,8 @@ import { useEffect } from 'react';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import Streams from './pages/Streams'
+import Ebooks from './pages/Ebooks';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/blog' element={<Blog/>}/>
+        <Route path='/stream' element={<Streams/>}/>
+        <Route path='/ebooks' element={<Ebooks/>}/>
       </Routes>
     </BrowserRouter>
   )

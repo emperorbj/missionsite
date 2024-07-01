@@ -39,13 +39,17 @@ return (
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
-            {/* <CreditCard className="mr-2 h-4 w-4" /> */}
+            
+            <NavLink to="/ebooks">
             <span className="text-lg font-medium">E-books</span>
+            </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             {/* <Settings className="mr-2 h-4 w-4" /> */}
+            <NavLink to="/stream">
             <span className="text-lg font-medium">Streams</span>
+            </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         </DropdownMenuGroup>
