@@ -19,6 +19,7 @@ DropdownMenuLabel,
 DropdownMenuSeparator,
 DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { NavLink } from "react-router-dom";
 
 export function DropdownTwo() {
 return (
@@ -32,7 +33,9 @@ return (
         <DropdownMenuGroup>
         <DropdownMenuItem>
             {/* <User className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Our Faith letters</span>
+            <NavLink to="/blog">
+                <span className="text-lg font-medium">Blogs</span>
+            </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
