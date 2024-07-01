@@ -154,6 +154,10 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        playWrite: ["Playwrite DE Grund", "cursive"],
+        myFont: ["Roboto", "sans-serif"]
+      }
     },
   },
   plugins: [
