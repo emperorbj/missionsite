@@ -1,4 +1,6 @@
+import Footer from "@/component/Footer"
 import Navbar from "@/component/Navbar"
+import NewsLetters from "@/component/NewsLetters"
 
 
 const Blog = () => {
@@ -170,6 +172,8 @@ const Blog = () => {
                     </div>
                 </div>
             </section>
+            <NewsLetters/>
+            <Footer/>
         </>
     )
 }
