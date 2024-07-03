@@ -1,12 +1,5 @@
 'use client'
-// import {
-// CreditCard,
-// Keyboard,
-// Plus,
-// Settings,
-// User,
-// Users,
-// } from "lucide-react"
+
 
 import { Button } from "@/components/ui/button";
 
@@ -30,10 +23,8 @@ return (
         <DropdownMenuLabel className="text-xl font-bold">Monthly Program</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-        <DropdownMenuItem>
+        {/* <DropdownMenuItem>
             {/* <User className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Our Faith</span>
-        </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             {/* <CreditCard className="mr-2 h-4 w-4" /> */}
