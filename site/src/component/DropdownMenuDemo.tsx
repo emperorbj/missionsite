@@ -12,6 +12,7 @@ DropdownMenuLabel,
 DropdownMenuSeparator,
 DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { NavLink } from "react-router-dom";
 
 export function DropdownMenuDemo() {
 return (
@@ -26,16 +27,23 @@ return (
         {/* <DropdownMenuItem>
             {/* <User className="mr-2 h-4 w-4" /> */}
         <DropdownMenuSeparator />
+        <NavLink to="/event">
         <DropdownMenuItem>
             {/* <CreditCard className="mr-2 h-4 w-4" /> */}
             <span className="text-lg font-medium">Global Outreach</span>
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        </NavLink>
+        {/* <DropdownMenuSeparator />
+        <DropdownMenuItem> */}
             {/* <Settings className="mr-2 h-4 w-4" /> */}
-            <span className="text-lg font-medium">Prayer drills</span>
-        </DropdownMenuItem>
+            {/* <span className="text-lg font-medium">Prayer drills</span> */}
+        {/* </DropdownMenuItem>
         <DropdownMenuSeparator />
+        <DropdownMenuSeparator/> */}
+        <DropdownMenuItem>
+                <span className="text-lg font-medium">Faith & Reason</span>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator/>
         </DropdownMenuGroup>
     </DropdownMenuContent>
     </DropdownMenu>

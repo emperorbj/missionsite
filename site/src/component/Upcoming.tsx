@@ -25,7 +25,7 @@ const Upcoming = () => {
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur 
                     </p>
-                    <button className='bg-sky-400 hover:bg-gradient-to-r from-green-500 to-sky-500 font-semibold text-white  rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
+                    <button className='bg-yellow-400 border border-black hover:bg-slate-800 hover:text-yellow-400 font-semibold text-black  rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>
@@ -41,7 +41,7 @@ const Upcoming = () => {
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatu
                     </p>
-                    <button className='bg-sky-400 hover:bg-gradient-to-r from-green-500 to-sky-500 font-semibold text-white  rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
+                    <button className='bg-yellow-400 border border-black hover:bg-slate-800 hover:text-yellow-400 font-semibold text-black  rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>
@@ -57,7 +57,7 @@ const Upcoming = () => {
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur 
                     </p>
-                    <button className='bg-sky-400 hover:bg-gradient-to-r from-green-500 to-sky-500  rounded-[7px] shadow-md py-[15px] font-semibold text-white px-[20px] text-xl w-[30%] ml-[50px]'>
+                    <button className='bg-yellow-400 border border-black hover:bg-slate-800 hover:text-yellow-400  rounded-[7px] shadow-md py-[15px] font-semibold text-black px-[20px] text-xl w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>

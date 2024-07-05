@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className="rounded-[20px] shadow  h-[55%]">
                     <img className="rounded-tr-[70px] rounded-bl-[70px] shadow  h-[100%] w-[100%] object-cover" src={Cross} alt="" />
                 </div>
-                <div className="flex items-center justify-center bg-blue-500 rounded-[10px] h-[20%]">
+                <div className="flex items-center justify-center bg-sky-400 rounded-[10px] h-[20%]">
                     <div className="">
                         <h2 className="text-2xl font-bold">Follow Us</h2>
                         <ul className="mt-2 flex space-x-4">

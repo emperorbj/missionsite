@@ -6,9 +6,10 @@ import Resources from "./pages/Resources";
 import { useEffect } from 'react';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Blog from './pages/Blog';
-import Streams from './pages/Streams'
+// import Blog from './pages/Blog';
+// import Streams from './pages/Streams'
 import Ebooks from './pages/Ebooks';
+import Events from './pages/Events';
 
 function App() {
 
@@ -30,9 +31,10 @@ function App() {
         <Route path='/resources' element={<Resources/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/blog' element={<Blog/>}/>
-        <Route path='/stream' element={<Streams/>}/>
+        {/* <Route path='/blog' element={<Blog/>}/> */}
+        {/* <Route path='/stream' element={<Streams/>}/> */}
         <Route path='/ebooks' element={<Ebooks/>}/>
+        <Route path='/event' element={<Events/>}/>
       </Routes>
     </BrowserRouter>
   )
