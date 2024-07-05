@@ -1,27 +1,21 @@
 // import Training from '../assets/training.jpg';
 // import Prayer from '../assets/prayer (1).jpg';
 // import Outreach from '../assets/outreach (1).jpg';
-// import 'aos/dist/aos.css'
-// import { Glow, GlowCapture } from '@codaworks/react-glow'
-// import { useEffect } from 'react';
 
 
 // const Cards = () => {
 
-//     // useEffect(() => {
-        
-//     // },[])
 
 //     return (
 //         // <section className='flex flex-col'>
 //         //     <h1 className='text-2xl font-bold text-center mt-[200px] mb-[50px]'> OUR CORE MISSION AND VISION</h1>
 //         //     {/* card container */}
-//         //     <GlowCapture>
+//         
 //         //     <div className='flex gap-10 px-[30px] h-[500px]'>
 //         //         {/* Each card design */}
-//         //         <Glow color='blue'>
+//         
 //         //         <div 
-//         //             className='flex flex-col glow:text-glow/50 glow:bg-sky-400 bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'>
+//         //             className='flex flex-col bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'>
 //         //             <div className='h-[260px]' >
 //         //                 <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}}  src={Training} alt="" />
 //         //             </div>
@@ -34,11 +28,11 @@
 //         //                     praesentium?</p>
 //         //             </div>
 //         //         </div>
-//         //         </Glow>
+//         
 
-//         //         <Glow color='green'>
+//         
 //         //         <div 
-//         //             className='flex flex-col  glow:text-glow/50 glow:bg-green-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
+//         //             className='flex flex-col bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
 //         //             <div className='h-[260px]'>
 //         //                 <img className='h-[100%] w-[100%] rounded-xl ' style={{objectFit:'cover', objectPosition:'center'}}  src={Prayer} alt="" />
 //         //             </div>
@@ -51,11 +45,11 @@
 //         //                     praesentium?</p>
 //         //             </div>
 //         //         </div>
-//         //         </Glow>
+//         
 
-//         //         <Glow color='purple'>
+//         
 //         //         <div 
-//         //             className='flex flex-col glow:text-glow/50 glow:bg-pink-400 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
+//         //             className='flex flex-col bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg  border-white border-opacity-30 h-[460px] border-2 rounded-xl shadow-lg'>
 //         //             <div className='h-[260px]'>
 //         //                 <img className='h-[100%] w-[100%] rounded-xl' style={{objectFit:'cover', objectPosition:'center'}} src={Outreach} alt='' />
 //         //             </div>
@@ -68,10 +62,9 @@
 //         //                     praesentium?</p>
 //         //             </div>
 //         //         </div>
-//         //         </Glow>
+//         
 //         //     </div>
-//         //     </GlowCapture>
-            
+//    
 //         // </section>
 //     )
 // }

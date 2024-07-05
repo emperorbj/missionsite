@@ -10,7 +10,7 @@ import About from './pages/About';
 // import Streams from './pages/Streams'
 import Ebooks from './pages/Ebooks';
 import Events from './pages/Events';
-import FaithReason from './pages/FaithReason';
+import Reason from './pages/Reason';
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         {/* <Route path='/stream' element={<Streams/>}/> */}
         <Route path='/ebooks' element={<Ebooks/>}/>
         <Route path='/event' element={<Events/>}/>
-        <Route path='/faith-reason' element={<FaithReason/>}/>
+        <Route path='/faith-reason' element={<Reason/>}/>
       </Routes>
     </BrowserRouter>
   )
