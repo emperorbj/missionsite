@@ -40,9 +40,11 @@ return (
         {/* </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuSeparator/> */}
+        <NavLink to="/faith-reason">
         <DropdownMenuItem>
                 <span className="text-lg font-medium">Faith & Reason</span>
         </DropdownMenuItem>
+        </NavLink>
         <DropdownMenuSeparator/>
         </DropdownMenuGroup>
     </DropdownMenuContent>
