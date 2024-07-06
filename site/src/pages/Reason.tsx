@@ -11,13 +11,12 @@ const Reason = () => {
             
             </div> */}
             <div className='h-[630px]  rounded-[10px] shadow-md mt-[70px] relative ml-[35px] w-[95%]'>
-                <div className='w-full bg-slate-500 rounded-[10px]  absolute top-0 left-0 h-full'>
-                    <img style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10px' }} src="" alt="" />
+                <div className='w-full rounded-[10px]  absolute top-0 left-0 h-full'>
+                    <img style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10px' }} src="https://crossexamined.org/wp-content/uploads/2024/03/CIA-2024-Banner-Revised.jpg" alt="" />
                 </div>
                 <div className='absolute top-0 left-0 flex items-center justify-center w-full h-full'>
                     <div className='text-center text-white'>
-                        <p className='mt-4 text-xl'>Your Success Begins Here</p>
-                        <button className='text-[20px] font-bold mt-[30px] rounded-[50px] py-[10px] px-[40px] border-black border bg-yellow-400 hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
+                        <button className='text-[20px] font-bold mt-[30px] text-black rounded-[50px] py-[10px] px-[40px] border-black border bg-yellow-400 hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
                     </div>
                 </div>
             </div>
@@ -110,27 +109,42 @@ const Reason = () => {
                 </div>
             </section>
 
-            <section className="h-[620px] w-full mt-[50px] flex items-center justify-center bg-slate-500">
-                <div className="h-[98%] flex gap-10 w-[90%] bg-red-500">
-                    <div className="h-[100%] w-[33%] bg-blue-500">
-                        <div className=" h-[45%] flex items-center justify-center bg-purple-500">
-                            <div className="w-[280px] h-[280px] rounded-full bg-green-600">
-
+            <section className="h-[620px] w-full mt-[100px] flex items-center justify-center">
+                <div className="h-[98%] flex gap-10 w-[90%]">
+                    <div className="h-[100%] w-[33%]">
+                        <div className=" h-[45%] flex items-center justify-center">
+                            <div className="w-[250px] h-[250px] rounded-full">
+                                <img className="w-[100%] h-[100%] object-cover rounded-full" src="https://crossexamined.org/wp-content/uploads/2016/12/a1.gif" alt="" />
                             </div>
                         </div>
-                    </div>
-                    <div className="h-[100%] w-[33%] bg-blue-500">
-                        <div className=" h-[45%] flex items-center justify-center bg-purple-500">
-                            <div className="w-[280px] h-[280px] rounded-full bg-green-600">
-
-                            </div>
+                        <div className="flex flex-col gap-2 justify-center items-center px-[10px]">
+                            <h1 className="text-red-500 text-2xl font-bold">Does Truth Exist?</h1>
+                            <p  className="text-lg leading-8">Christianity cannot be true, nor can any other worldview (including atheism), 
+                            if truth is relative or just true for you but not for me.</p>
                         </div>
                     </div>
-                    <div className="h-[100%] w-[33%] bg-blue-500">
-                        <div className=" h-[45%] flex items-center justify-center bg-purple-500">
-                            <div className="w-[280px] h-[280px] rounded-full bg-green-600">
-
+                    <div className="h-[100%] w-[33%]">
+                        <div className=" h-[45%] flex items-center justify-center">
+                            <div className="w-[250px] h-[250px] rounded-full">
+                                <img className="w-[100%] h-[100%] object-cover rounded-full" src="https://crossexamined.org/wp-content/uploads/2020/10/a2.gif" alt="" />
                             </div>
+                        </div>
+                        <div className="flex flex-col gap-2 justify-center items-center px-[10px]">
+                            <h1 className="text-red-500 text-2xl font-bold">Does God Exist?</h1>
+                            <p className="text-lg leading-8">There can be no Word of God unless God exists. We believe three powerful arguments (there are more) can be made for the existence of God, 
+                                two scientific and one philosophical, without any reference to the Bible.</p>
+                        </div>
+                    </div>
+                    <div className="h-[100%] w-[33%]">
+                        <div className=" h-[45%] flex items-center justify-center">
+                            <div className="w-[250px] h-[250px] rounded-full">
+                                <img className="w-[100%] h-[100%] object-cover rounded-full" src="https://crossexamined.org/wp-content/uploads/2020/10/a3.gif" alt="" />
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2 justify-center items-center px-[10px]">
+                            <h1 className="text-red-600 text-2xl font-bold">Are Miracles Possible?</h1>
+                            <p className="text-lg leading-8">If miracles don’t happen then Christianity is nonsense. We believe that miracles are not only possible, 
+                            but the greatest miracle of all has already occurred and we have scientific evidence for it.</p>
                         </div>
                     </div>
                 </div>
