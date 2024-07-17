@@ -19,7 +19,7 @@ const About = () => {
     return (
         <>
             <Navbar/>
-            <div className="mt-[85px] flex  gap-5 px-[10] py-[10px] rounded-[10px] h-[550px] bg-slate-200 mx-[40px]">
+            <div className="mt-[85px] font-myWorkSans flex  gap-5 px-[10] py-[10px] rounded-[10px] h-[550px] bg-slate-200 mx-[40px]">
                 <div className="ml-[20px] w-[50%] ">
                     <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="https://missionquest.org/wp-content/uploads/2017/07/Global-Missions-web-image.png" alt="" />
                 </div>
@@ -97,10 +97,47 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className="">
-                <h1 className="text-3xl mt-[80px] font-semibold text-center">Testimonials</h1>
+            {/* first  */}
+            <div className='font-myWorkSans flex h-[500px] mx-[40px] mt-[110px]'>
+                <div className="w-[50%] rounded-[10px] shadow-lg">
+                    <img className='h-[100%] w-[100%] object-cover object-center rounded-[10px]' src="https://ehr.meditech.com/themes/ehrmeditech/images/about/meditech-staff-working-together-on-whiteboard.jpg" alt="" />
+                </div>
+                <div className='w-[50%]'>
+                    <div className='h-[100%] flex flex-col'>
+                        <h1 className='text-3xl  font-bold text-center pt-[50px] my-[10px]'>Mission driven</h1>
+                        <p className='text-xl px-[50px] mb-[40px]'>
+                        MEDITECH wants to help build a world where every patient can access their health information and participate 
+                        fully in their own care. We think all healthcare organizations can serve their communities quicker and more
+                        safely if patients and providers have instant access to records, knowledge, and data.
+                        To that end, we set out to create better technologies for secure and cost-effective care, with our scalable 
+                        Cloud Platform, MEDITECH as a Service (MaaS), and our strategic partnerships with Google and Apple. And with leading innovation in areas like mobility, genomics, and AI, we will be ready for what comes next.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <Testimonial/>
+            {/* second */}
+            <div className='font-myWorkSans flex flex-row-reverse h-[500px] mx-[40px] mt-[80px]'>
+                <div className="w-[50%] rounded-[10px] shadow-lg">
+                    <img className='h-[100%] w-[100%] object-cover object-center rounded-[10px]' src="https://ehr.meditech.com/themes/ehrmeditech/images/about/two-meditechers-embracing-each-other.jpg" alt="" />
+                </div>
+                <div className='w-[50%]'>
+                    <div className='h-[100%] flex flex-col'>
+                        <h1 className='text-3xl  font-bold text-center pt-[50px] my-[10px]'>Devoted to all our employees</h1>
+                        <p className='text-xl px-[50px] mb-[40px]'>
+                        At MEDITECH we believe there is strength in a diverse workforce, powered 
+                        by the contributions of people from different backgrounds, perspectives, 
+                        and life experiences. We are committed to fostering a work environment 
+                        and culture where all our staff members can reach their fullest potential.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 className="text-3xl font-myWorkSans mt-[90px] text-center">What People Area Saying</h1>
+            </div>
+            <div className="mb-[40px]">
+                <Testimonial/>
+            </div>
             <NewsLetters/>
             <Footer/>
         </>

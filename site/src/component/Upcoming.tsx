@@ -16,10 +16,10 @@ const Upcoming = () => {
     return (
         <>
         <div className='flex h-[500px] mx-[40px] my-[60px]'>
-            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg " data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
+            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg " data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <img className='h-[100%] w-[100%] object-cover object-center rounded-tl-[50px] rounded-br-[50px]' src={Program2} alt="" />
             </div>
-            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-left'>
+            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <div className='h-[100%] flex flex-col'>
                     <h1 className='text-4xl font-bold text-center pt-[50px] my-[10px]'>Program title</h1>
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -32,10 +32,10 @@ const Upcoming = () => {
             </div>
         </div>
         <div className='flex flex-row-reverse h-[500px] mx-[40px] my-[60px]'>
-            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg" data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-left'>
+            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg" data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <img className='h-[100%] w-[100%] object-cover object-center rounded-tl-[50px] rounded-br-[50px]' src={Program3} alt="" />
             </div>
-            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
+            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
             <div className='h-[100%] flex flex-col'>
                     <h1 className='text-4xl font-bold text-center pt-[50px] my-[10px]'>Program title</h1>
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -48,10 +48,10 @@ const Upcoming = () => {
             </div>
         </div>
         <div className='flex h-[500px] mx-[40px] my-[60px]'>
-            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg " data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-right'>
+            <div className="w-[50%] rounded-tl-[50px] rounded-br-[50px] shadow-lg " data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <img className='h-[100%] w-[100%] object-cover object-center rounded-tl-[50px] rounded-br-[50px]' src={Program4} alt="" />
             </div>
-            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='fade-left'>
+            <div className='w-[50%]' data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <div className='h-[100%] flex flex-col'>
                     <h1 className='text-4xl font-bold text-center pt-[50px] my-[10px]'>Program title</h1>
                     <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

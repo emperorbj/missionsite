@@ -5,10 +5,10 @@ const Events = () => {
     return (
         <>
             <Navbar/>
-            <div className="mt-[85px] flex  gap-5 px-[10] font-myFont py-[10px] rounded-[10px] h-[550px] bg-slate-200 mx-[40px]">
-                {/* <div className="ml-[20px] w-[50%] ">
-                    <video className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="https://abwe.org/wp-content/uploads/2023/06/abwe-homepage-video-compressed-version.mp4" loop autoPlay muted />
-                </div> */}
+            <div className="mt-[85px] flex  gap-5 px-[10] font-myWorkSans py-[10px] rounded-[10px] h-[550px] bg-slate-200 mx-[40px]">
+                <div className="ml-[20px] w-[50%] ">
+                    <video className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="" loop autoPlay muted />
+                </div>
                 <div className=" w-[50%] flex flex-col gap-5 px-[30px] items-center justify-center">
                     <h1 className="text-3xl text-sky-400 font-semibold">We are sent to disciple nations</h1>
                     <p className="text-xl leading-9">
@@ -21,16 +21,16 @@ const Events = () => {
                 </div>
             </div>
             <section>
-                <div className=" font-myFont">
-                    <h1 className='text-center font-playWrite text-3xl font-bold mt-40'>CHECK OUT OUR RECENT VIDEOS</h1>
+                <div className=" font-myWorkSans">
+                    <h1 className='text-center font-myPoppins text-3xl font-bold mt-40 mb-[20px]'>FOCUS GROUPS</h1>
                     <div className="grid bg-slate-200 rounded-[30px] grid-cols-3 gap-3 p-10 mx-[20px] mb-[20px]">
                         <div className=" w-[450px] h-[300px] bg-purple-700 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[360px] shadow-md rounded-[8px] bg-slate-600">
                                 <img alt="" className='object-cover' src=""/>
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>How do i introduce apologetics<br/>
-                                to my church
+                                <h1 className='font-semibold text-xl'>
+                                    Campus Outreaches
                                 </h1>
                                 
                             </div>
@@ -40,7 +40,9 @@ const Events = () => {
                                 <img alt="" className='object-cover' src="" />
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Why would God make me a lesbian</h1>
+                                <h1 className='font-semibold text-xl'>
+                                    Church Seminars
+                                </h1>
                             </div>
                         </div>
                         <div className=" w-[450px] h-[300px] bg-purple-700 rounded-[8px] flex flex-col gap-3">
@@ -48,7 +50,9 @@ const Events = () => {
                                 <img alt="" className='object-cover' src=""/>
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Why is the evil if God exists?</h1>
+                                <h1 className='font-semibold text-xl'>
+                                    Village Outreach
+                                </h1>
                             </div>
                         </div>
                         <div className=" w-[450px] h-[300px] bg-purple-700 rounded-[8px] flex flex-col gap-3">
@@ -56,7 +60,9 @@ const Events = () => {
                                 <img alt="" className='object-cover' src=""/>
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Is meaning possible without God?</h1>
+                                <h1 className='font-semibold text-xl'>
+                                    High School Outreach
+                                </h1>
                             </div>
                         </div>
                         <div className=" w-[450px] h-[300px] bg-purple-700 rounded-[8px] flex flex-col gap-3">
@@ -64,7 +70,7 @@ const Events = () => {
                                 <img alt="" className='object-cover' src=""/>
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>William craig on Evolution</h1>
+                                <h1 className='font-semibold text-xl'>Street Evangelism</h1>
                             </div>
                         </div>
                         <div className=" w-[450px] h-[300px] bg-purple-700 rounded-[8px] flex flex-col gap-3">
@@ -72,7 +78,7 @@ const Events = () => {
                                 <img alt="" className='object-cover' src=""/>
                             </div>
                             <div className="w-[100%] h-[100px] flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Cause and Effect</h1>
+                                <h1 className='font-semibold text-xl'>Missionary Summits</h1>
                             </div>
                         </div>
                     </div>

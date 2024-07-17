@@ -1,13 +1,13 @@
-// import HeaderPix from '../assets/header1.jpg';
+//import HeaderPix from '../assets/header1.jpg';
 import Navbar from './Navbar'
-// import video from '../assets/video (1).mp4'
+import video from '../assets/video (1).mp4'
 
 const Header = () => {
     return (
         <div className='h-[750px] relative w-full'>
-            {/* <div className='w-full absolute top-0 left-0 h-full'>
+            <div className='w-full absolute top-0 left-0 h-full'>
                 <video style={{width:'100%', height:'100%', objectFit:'cover'}} src={video} autoPlay muted loop/>
-            </div> */}
+            </div>
             <Navbar/>
             <div className='absolute top-0 left-0 flex items-center justify-center w-full h-full'>
                 <div className='text-center text-white'>

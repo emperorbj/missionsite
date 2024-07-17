@@ -10,22 +10,23 @@ const Reason = () => {
             {/* <div className="mt-[70px] ml-[90px] w-[85%]  bg-purple-600 h-[70vh]">
             
             </div> */}
-            <div className='h-[630px]  rounded-[10px] shadow-md mt-[70px] relative ml-[35px] w-[95%]'>
+            <div className='h-[630px] font-myPoppins  rounded-[10px] shadow-md mt-[70px] relative ml-[35px] w-[95%]'>
                 <div className='w-full rounded-[10px]  absolute top-0 left-0 h-full'>
                     <img style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10px' }} src="https://crossexamined.org/wp-content/uploads/2024/03/CIA-2024-Banner-Revised.jpg" alt="" />
+                    <div className='absolute top-0 left-0 h-full w-full bg-black opacity-50'></div>
                 </div>
                 <div className='absolute top-0 left-0 flex items-center justify-center w-full h-full'>
                     <div className='text-center text-white'>
-                        <button className='text-[20px] font-bold mt-[30px] text-black rounded-[50px] py-[10px] px-[40px] border-black border bg-yellow-400 hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
+                        <button className='text-[20px] font-bold mt-[30px] text-black rounded-[5px] py-[10px] px-[40px] border-black border-[3px] bg-yellow-400 hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
                     </div>
                 </div>
             </div>
 
-            <section className="mx-[45px] bg-slate-100 rounded-[15px] font-myFont mt-[65px]  h-[720px]">
+            <section className="mx-[45px]  bg-slate-100 rounded-[15px] mt-[65px]  h-[720px]">
                 <div className=" h-[15%] pt-[20px]">
-                    <h1 className="font-playWrite text-2xl font-bold text-center"> Recent events</h1>
+                    <h1 className="font-myWorkSans text-2xl font-bold text-center"> Recent events</h1>
                 </div>
-                <div className=" flex h-[85%]">
+                <div className=" flex  h-[85%]">
                     {/* big top story right side */}
                     <div className=" h-[100%] w-[50%] pr-5">
                         {/* image container */}

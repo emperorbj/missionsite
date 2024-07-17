@@ -79,7 +79,7 @@
 //   ],
 // }
 /** @type {import('tailwindcss').Config} */
-import reactGlow from '@codaworks/react-glow/tailwind';
+
 import tailwindcssAnimate from "tailwindcss-animate";
 
 const config = {
@@ -156,13 +156,14 @@ const config = {
       },
       fontFamily: {
         playWrite: ["Playwrite DE Grund", "cursive"],
-        myFont: ["Roboto", "sans-serif"]
+        myFont: ["Roboto", "sans-serif"],
+        myPoppins: ["Poppins", "sans-serif"],
+        myWorkSans: ["Work Sans", "sans-serif"]
       }
     },
   },
   plugins: [
     tailwindcssAnimate,
-    reactGlow
   ],
 };
 

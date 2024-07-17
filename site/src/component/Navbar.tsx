@@ -13,7 +13,7 @@ const Navbar = () => {
                     logo
                 </div>
                 </Link>
-                <div className=" rounded-2xl flex gap-[100px] mr-[60px]">
+                <div className=" rounded-2xl flex gap-[30px] mr-[60px]">
                     <Link to="/" className="hover:text-yellow-500  w-[110px] text-center text-lg font-bold rounded-lg py-[12px] px-[10px]">
                         <button>Home</button>
                     </Link>
@@ -38,3 +38,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

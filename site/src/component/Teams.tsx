@@ -3,44 +3,44 @@
 const team = [
     {
         id: 1,
-        name: "Cynthia Cane",
+        name: " Cane",
         role: "Founder/CEO",
-        image: "/team1.jpg"
+        image: "/person3.jpg"
 
     },
     {
         id: 2,
         name: "Ameliat Cane",
-        role: "Head of Product Design",
+        role: "Head of Communications",
         image: "/team2.jpg"
 
     },
     {
         id: 3,
         name: "Busola Cane",
-        role: "Head of Education",
+        role: "Head of Missions",
         image: "/team3.jpg",
 
     },
     {
         id: 4,
         name: "Chike",
-        role: "Head of AI",
+        role: "General Secretary",
         image: "/team4.jpg"
 
     },
     {
         id: 4,
         name: "Charles",
-        role: "CTO",
+        role: "Training Facilitator",
         image: "/person1.jpg"
 
     },
     {
         id: 4,
-        name: "John Doe",
-        role: "CFO",
-        image: "/person3.jpg",
+        name: " Doe",
+        role: "Head of Prayer Department",
+        image: "/team1.jpg",
 
     },
 ]
