@@ -14,13 +14,13 @@ const Navbar = () => {
                 </div>
                 </Link>
                 <div className=" rounded-2xl flex gap-[30px] mr-[60px]">
-                    <Link to="/" className="hover:text-yellow-500  w-[110px] text-center text-lg font-bold rounded-lg py-[12px] px-[10px]">
+                    <Link to="/" className="hover:text-yellow-500  w-[110px] text-center text-md font-bold rounded-lg py-[12px] px-[10px]">
                         <button>Home</button>
                     </Link>
-                    <Link to="/about" className="hover:text-yellow-500  w-[110px] text-center text-lg font-bold rounded-lg py-[12px] px-[10px]">
+                    <Link to="/about" className="hover:text-yellow-500  w-[110px] text-center text-md font-bold rounded-lg py-[12px] px-[10px]">
                         <button>About us</button>
                     </Link>
-                    <Link to="/contact" className="hover:text-yellow-500 w-[110px] text-center text-lg font-bold rounded-lg py-[12px] px-[10px]">
+                    <Link to="/contact" className="hover:text-yellow-500 w-[110px] text-center text-md font-bold rounded-lg py-[12px] px-[10px]">
                         <button>Contact</button>
                     </Link>
                     <Link to="/resources">
