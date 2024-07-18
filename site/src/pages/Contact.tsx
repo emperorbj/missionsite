@@ -3,8 +3,21 @@ import Forms from "../component/Forms"
 import Footer from "@/component/Footer"
 import Lottie from 'lottie-react'
 import Mail from '../third.json'
+import { useEffect } from "react"
 
 const Contact = () => {
+
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = "https://assets.calendly.com/assets/external/widget.js";
+        script.async = true;
+        document.body.appendChild(script);
+
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
     return (
         <>
         <Navbar />
@@ -48,9 +61,15 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        {/* <div>
+        <div className="w-full  h-[730px]">
+            <div className="w-[40%]">
+
+            </div>
             
-        </div> */}
+            <div className="calendly-inline-widget" data-url="https://calendly.com/cwaku96/30min" style={{minWidth:"400px",height:"700px"}}></div>
+            {/* <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> */}
+
+        </div>
         <Footer/>
     </>
     )
