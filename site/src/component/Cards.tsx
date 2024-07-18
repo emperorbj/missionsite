@@ -11,9 +11,9 @@ const Cards = () => {
             <h1 className='text-2xl font-bold text-center mt-[200px] mb-[50px]'> OUR CORE MISSION AND VISION</h1>
             {/* card container */}
         
-            <div className='flex gap-10 px-[30px] h-[500px]'>
+            {/* <div className='flex-col gap-5 h-[1000px] md:flex md:flex-row md:gap-10 px-[30px] md:h-[500px]'> */}
                 {/* Each card design */}
-        
+            <div className=' h-[1600px] px-4 gap-2 md:px-2  grid-cols-1 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-6 md:gap-5 md:h-[900px] lg:h-[500px]'>
                 <div 
                     className='flex flex-col bg-white/20 backdrop-blur-xl h-[460px] border-2 rounded-xl shadow-lg'>
                     <div className='h-[260px]' >

@@ -8,14 +8,17 @@ const Contact = () => {
     return (
         <>
         <Navbar />
-        <div className="flex gap-4 mt-[85px] w-[100%] h-full">
+        <div className="flex flex-col-reverse lg:flex lg:flex-row gap-4 mt-[85px] lg:w-full h-full">
             <Forms />
-            <div className="flex gap-4 flex-col w-[49%]">
-                <div className="rounded-[20px]  h-[55%]">
+            <div className=" lg:gap-4 flex flex-row lg:flex lg:flex-col justify-between 
+            lg:justify-center items-center lg:items-center w-full lg:w-[49%]">
+                <div className="rounded-[20px] h-[40%] w-[40%] lg:h-[55%] lg:w-[70%]">
                     {/* <img className="rounded-tr-[70px] rounded-bl-[70px] shadow  h-[100%] w-[100%] object-cover" src={Cross} alt="" /> */}
                     <Lottie loop={true} animationData={Mail}/>
                 </div>
-                <div className="flex items-center justify-center mt-[130px] bg-sky-400 rounded-[10px] h-[20%]">
+                <div className=" lg:flex lg:flex-row items-center 
+                lg:justify-center lg:mt-[130px] 
+                h-[40%] lg:h-[20%]">
                     <div className="">
                         <h2 className="text-2xl font-bold">Follow Us</h2>
                         <ul className="mt-2 flex space-x-4">
@@ -45,9 +48,9 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <div>
+        {/* <div>
             
-        </div>
+        </div> */}
         <Footer/>
     </>
     )
