@@ -1,12 +1,40 @@
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
+import Swal from 'sweetalert2'
 
 function classNames(...classes: (string | boolean | null | undefined)[]) {
     return classes.filter(Boolean).join(' ')
 }
 
 const Forms = () => {
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "36eb3d33-64c9-4ad4-af03-5e4f843e3560");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
+            }).then((res) => res.json());
+        
+            if (res.success) {
+                Swal.fire({
+                    title: "Success!",
+                    text: "Message delivered",
+                    icon: "success"
+                });
+            }
+        };
 
     const [agreed, setAgreed] = useState(false)
 
@@ -30,7 +58,8 @@ const Forms = () => {
                     Aute magna irure deserunt veniam aliqua magna enim voluptate.
                 </p>
             </div>
-            <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+            <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20"
+            onSubmit={onSubmit}>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
                         <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -42,12 +71,14 @@ const Forms = () => {
                                 name="first-name"
                                 id="first-name"
                                 autoComplete="given-name"
+                                required
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             />
                         </div>
                     </div>
                     <div>
-                        <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                        <label htmlFor="last-name" className="block text-sm font-semibold leading-6 
+                        text-gray-900">
                             Last name
                         </label>
                         <div className="mt-2.5">
@@ -56,6 +87,7 @@ const Forms = () => {
                                 name="last-name"
                                 id="last-name"
                                 autoComplete="family-name"
+                                required
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             />
                         </div>
@@ -70,12 +102,16 @@ const Forms = () => {
                                 name="company"
                                 id="company"
                                 autoComplete="organization"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 
+                                text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 
+                                placeholder:text-gray-400 focus:ring-2 focus:ring-inset 
+                                focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             />
                         </div>
                     </div>
                     <div className="sm:col-span-2">
-                        <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+                        <label htmlFor="email" className="block text-sm font-semibold leading-6 
+                        ext-gray-900">
                             Email
                         </label>
                         <div className="mt-2.5">
@@ -84,7 +120,12 @@ const Forms = () => {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 
+                                text-gray-900 shadow-sm ring-1 ring-inset 
+                                ring-gray-300 placeholder:text-gray-400 
+                                focus:ring-2 focus:ring-inset focus:ring-indigo-600 
+                                sm:text-sm sm:leading-6"
+                                required
                             />
                         </div>
                     </div>

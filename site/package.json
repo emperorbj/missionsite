@@ -29,6 +29,7 @@
     "react-slick": "^0.30.2",
     "shadcn-ui": "^0.2.3",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.12.3",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
