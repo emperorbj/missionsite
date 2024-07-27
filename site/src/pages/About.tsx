@@ -3,13 +3,15 @@ import Navbar from "@/component/Navbar"
 import NewsLetters from "@/component/NewsLetters"
 import NumberTickerDemo from "@/component/NumberTickerDemo"
 import NumberTickerDemoTwo from "@/component/NumberTickerDemoTwo"
-import Testimonial from "@/component/Testimonial"
 import { PencilSquareIcon } from '@heroicons/react/20/solid'
 import { CheckBadgeIcon } from '@heroicons/react/20/solid'
 import { HeartIcon } from '@heroicons/react/20/solid'
 import { GlobeEuropeAfricaIcon } from '@heroicons/react/20/solid'
 import { useTypewriter, Cursor, Typewriter } from 'react-simple-typewriter'
-import ShinyButton from "@/components/magicui/shiny-button";
+import { MarqueeDemo } from "@/component/MarqueeDemo"
+import { Subscribe } from "@/component/Subscribe"
+
+
 
 
 
@@ -25,7 +27,7 @@ const About = () => {
                 <div className="mt-[25px] md:mt-[85px] font-myWorkSans 
             flex flex-col-reverse lg:flex lg:flex-row 
             gap-4  lg:gap-5 px-[10] 
-            py-[10px] rounded-[10px] h-[1000px] lg:h-[550px] bg-slate-200 mx-3 lg:mx-[40px]">
+            py-[10px] rounded-[10px] h-[1000px] lg:h-[550px] bg-sky-100 mx-3 lg:mx-[40px]">
                     <div className="ml-0  md:ml-[20px] w-full lg:w-[50%] h-[500px] ">
                         <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="https://missionquest.org/wp-content/uploads/2017/07/Global-Missions-web-image.png" alt="" />
                     </div>
@@ -41,7 +43,7 @@ const About = () => {
                         {/* <button className="text-xl text-black px-[40px] py-[10px]  
                         rounded-md shadow border border-black hover:text-yellow-400 
                         hover:bg-slate-800 bg-yellow-400">Join us</button>*/}
-                        <ShinyButton text="Join us" />
+                        <Subscribe/>
                     </div>
                 </div>
                 <div className="flex items-center h-32 my-24 justify-center gap-5">
@@ -158,8 +160,9 @@ const About = () => {
                 <div>
                     <h1 className="text-3xl font-myWorkSans mt-[90px] text-center">What People Area Saying</h1>
                 </div>
-                <div className="mb-[40px]">
-                    <Testimonial />
+                <div className="mb-[40px] mx-3">
+                    <MarqueeDemo/>
+                    {/* <Testimonial /> */}
                 </div>
                 <NewsLetters />
                 <Footer />
