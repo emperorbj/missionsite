@@ -170,8 +170,10 @@ const Forms = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
-                        className="block w-full rounded-md border border-black bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold 
-                        text-black shadow-sm hover:bg-slate-800 hover:text-yellow-400 focus-visible:outline focus-visible:outline-2 
+                        className="block w-[35%] md:w-[40%] lg:w-full rounded-md border border-black 
+                        bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold 
+                        text-black shadow-sm hover:bg-slate-800 hover:text-yellow-400 
+                        focus-visible:outline focus-visible:outline-2 
                         focus-visible:outline-offset-2 focus-visible:outline-sky-400"
                     >
                         Lets talk
