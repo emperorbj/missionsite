@@ -9,9 +9,9 @@ function classNames(...classes: (string | boolean | null | undefined)[]) {
 
 const Forms = () => {
 
-    const onSubmit = async (event) => {
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const formData = new FormData(event.currentTarget);
     
         formData.append("access_key", "36eb3d33-64c9-4ad4-af03-5e4f843e3560");
     
