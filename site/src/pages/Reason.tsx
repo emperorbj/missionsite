@@ -11,7 +11,7 @@ const Reason = () => {
             
             </div> */}
             <div className='md:h-[500px] h-[630px] font-myPoppins  rounded-[10px] shadow-md 
-            mt-[70px] relative ml-4 md:ml-7 lg:ml-[35px] w-[95%]'>
+            mt-2 md:mt-[70px] relative ml-0 md:ml-7 lg:ml-[35px] w-full md:w-[95%]'>
                 <div className='w-full rounded-[10px]  absolute top-0 left-0 h-full'>
                     <img style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10px' }} src="https://crossexamined.org/wp-content/uploads/2024/03/CIA-2024-Banner-Revised.jpg" alt="" />
                     <div className='absolute top-0 left-0 h-full w-full bg-black opacity-50'></div>

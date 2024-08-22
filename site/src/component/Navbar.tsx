@@ -11,14 +11,16 @@ const Navbar = () => {
         
         <nav>
             
-            <div className="relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[60px] bg-white/30 backdrop-blur-lg shadow-lg z-30">
+            <div className="relative md:fixed top-0 left-0 flex items-center 
+            justify-between w-full h-[60px] bg-white/30 backdrop-blur-lg shadow-lg z-30">
                 <Link to="/">
                 <div className="w-[100px] px-[10px] mx-10 text-3xl">
                     logo
                 </div>
                 </Link>
                 <div className=' block cursor-pointer md:hidden'>
-                    <Bars4Icon onClick={()=> setOpenMenu(!openMenu)} width={35} height={35} style={{marginRight:"20px"}}/>
+                    <Bars4Icon onClick={()=> setOpenMenu(!openMenu)} width={35} 
+                    height={35} style={{marginRight:"20px"}}/>
                 </div>
                 {openMenu &&
                     <div className=' shadow-sm border border-slate-300 rounded-md mr-1 flex absolute items-center top-[61px] right-0 flex-col w-[400px] text-3xl gap-6  h-[550px]  bg-slate-200 md:hidden'>

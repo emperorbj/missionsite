@@ -27,13 +27,13 @@ const About = () => {
                 <div className="mt-[25px] md:mt-[85px] font-myWorkSans 
             flex flex-col-reverse lg:flex lg:flex-row 
             gap-4  lg:gap-5 px-[10] 
-            py-[10px] rounded-[10px] h-[1000px] lg:h-[550px] bg-sky-100 mx-3 lg:mx-[40px]">
-                    <div className="ml-0  md:ml-[20px] w-full lg:w-[50%] h-[500px] ">
+            py-[10px] rounded-[10px] h-[800px] md:h-[1000px] lg:h-[550px] bg-sky-100 mx-1 lg:mx-[40px]">
+                    <div className="ml-0 sm:hidden  md:ml-[20px] w-full lg:w-[50%] h-[500px] ">
                         <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="https://missionquest.org/wp-content/uploads/2017/07/Global-Missions-web-image.png" alt="" />
                     </div>
-                    <div className="w-full lg:w-[50%] flex flex-col gap-5 px-[30px] h-[500px] items-center justify-center">
+                    <div className="w-full lg:w-[50%] flex flex-col gap-5 px-4 md:px-[30px] h-[500px] items-center justify-center">
                         <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
-                        <p className="text-lg md:text-xl leading-8">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
+                        <p className=" text-center text-lg md:text-xl leading-4 md:leading-8 px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
                             We seek to present evidence that the Bible is true.
                             We do not require others in the body of Christ with whom we partner to hold
                             certain positions on many of the doctrinal or theological debates that take
@@ -46,14 +46,15 @@ const About = () => {
                         <Subscribe/>
                     </div>
                 </div>
-                <div className="flex items-center h-32 my-24 justify-center gap-5">
+                <div className="flex-col mx-6 md:mx-0 md:flex md:flex-row items-center h-32 my-24 justify-center space-y-4 md:space-y-0 
+                md:gap-5">
                     <div className="border-4 px-3 py-4 rounded-md flex items-center justify-center">
                         <NumberTickerDemo />
-                        <p className="text-3xl text-sky-700 font-bold">+{" "}Events</p>
+                        <p className="text-2xl md:text-3xl text-sky-700 font-bold">+{" "}Events</p>
                     </div>
                     <div className="border-4 px-3 py-4 rounded-md flex items-center justify-center">
                         <NumberTickerDemoTwo />
-                        <p className="text-3xl text-sky-800 font-bold">+{" "}Outreaches</p>
+                        <p className="text-2xl md:text-3xl text-sky-800 font-bold">+{" "}Outreaches</p>
                     </div>
 
 

@@ -27,7 +27,7 @@ const Upcoming = () => {
                     </p>
                     <button className='bg-yellow-400 border border-black hover:bg-slate-800
                     hover:text-yellow-400 font-semibold text-black  
-                    rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[45%] md:w-[60%] lg:w-[30%] ml-[50px]'>
+                    rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[55%] md:w-[60%] lg:w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>
@@ -46,7 +46,7 @@ const Upcoming = () => {
                     <button className='bg-yellow-400 border border-black 
                     hover:bg-slate-800 hover:text-yellow-400 font-semibold 
                     text-black  rounded-[7px] shadow-md py-[15px] 
-                    px-[20px] text-xl w-[45%] md:w-[60%] lg:w-[30%] ml-[50px]'>
+                    px-[20px] text-xl w-[55%] md:w-[60%] lg:w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>
@@ -65,7 +65,7 @@ const Upcoming = () => {
                     <button className='bg-yellow-400 border border-black 
                     hover:bg-slate-800 hover:text-yellow-400  
                     rounded-[7px] shadow-md py-[15px] font-semibold text-black 
-                    px-[20px] text-xl w-[45%] md:w-[60%] lg:w-[30%] ml-[50px]'>
+                    px-[20px] text-xl w-[55%] md:w-[60%] lg:w-[30%] ml-[50px]'>
                         Register here
                     </button>
                 </div>

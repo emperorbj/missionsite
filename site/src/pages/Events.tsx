@@ -7,17 +7,17 @@ const Events = () => {
     return (
         <>
             <Navbar/>
-            <div className="mt-[30px] md:mt-[85px] lg:mt-[95px] flex flex-col lg:flex lg:flex-row  
-            gap-5 px-[10] 
-            font-myWorkSans py-[10px] 
-            rounded-[10px] h-[900px] md:h-1100px lg:h-[650px] bg-slate-200 mx-5 lg:mx-[40px]">
-                <div className="ml-[20px] h-[50%] w-[95%]  md:h-[60%] md:w-[95%] lg:w-[50%] lg:h-[100%] ">
+            <div className="mt-[10px] md:mt-[85px] lg:mt-[95px] flex flex-col lg:flex lg:flex-row  
+            gap-5 px-0 md:px-[10] 
+            font-myWorkSans py-1 md:py-[10px] 
+            rounded-[10px] h-[900px] md:h-1100px lg:h-[650px] bg-slate-200 mx-1 md:mx-5 lg:mx-[40px]">
+                <div className="md:ml-[20px] h-[50%] w-[100%]  md:h-[60%] md:w-[95%] lg:w-[50%] lg:h-[100%] ">
                     <video className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="" loop autoPlay muted />
                 </div>
                 <div className="h-[50%] w-[95%] md:h-[40%] md:w-[95%] lg:w-[50%] lg:h-[100%] flex flex-col gap-5 
                 px-[30px] items-center justify-center">
                     <h1 className="text-3xl text-sky-400 font-semibold">We are sent to disciple nations</h1>
-                    <p className="md:text-lg lg:text-xl leading-9">
+                    <p className="md:text-lg lg:text-xl leading-5 md:leading-9">
                     We do not require others in the body of Christ with whom we partner to hold 
                     certain positions on many of the doctrinal or theological debates that take 
                     place within the church. While we do believe that these issues are significant, 
@@ -93,7 +93,7 @@ const Events = () => {
             </section>
             <div className='items-center flex flex-col md:flex md:flex-row lg:flex 
             lg:flex-row-reverse h-[560px] md:h-[550px] lg:h-[500px] mx-3 lg:mx-[40px] my-[60px]'>
-                <div className="w-[45%] h-[50%] md:w-[45%] md:h-[60%] lg:w-[40%] 
+                <div className="w-[80%] h-[50%]  md:h-[60%] md:w-[45%] lg:w-[40%] 
                 lg:h-[100%]  rounded-[30px] shadow-lg">
                     <Lottie loop={true} animationData={bookUs}/>
                 </div>
@@ -102,7 +102,9 @@ const Events = () => {
                             <p className='text-xl px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatu
                             </p>
-                            <button className='bg-yellow-400 border border-black hover:bg-slate-800 hover:text-yellow-400 font-semibold text-black  rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[30%] ml-[50px]'>
+                            <button className='bg-yellow-400 border border-black hover:bg-slate-800 
+                            hover:text-yellow-400 font-semibold text-black  
+                            rounded-[7px] shadow-md py-[15px] px-[20px] text-xl w-[50%] md:w-[30%] ml-[50px]'>
                                 Register here
                             </button>
                         </div>
