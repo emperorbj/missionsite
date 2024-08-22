@@ -27,7 +27,7 @@ const Reason = () => {
             </div>
 
             <section className="md:mx-3 lg:mx-[45px]  bg-slate-100 rounded-[15px] mt-[65px]  
-            md:h-[1790px] lg:h-[720px]">
+            md:h-[1790px] lg:h-[740px]">
                 <div className=" h-[15%] pt-[20px]">
                     <h1 className="font-myWorkSans text-3xl md:text-3xl lg:text-2xl md:mt-14  
                     font-bold text-center"> Recent events</h1>
@@ -124,9 +124,9 @@ const Reason = () => {
                 </div>
             </section>
 
-            <section className="h-[900px] md:h-[800px] lg:h-[620px] bg-purple-500 w-full mt-[100px] 
+            <section className="h-[900px] md:h-[800px] lg:h-[620px] w-full mt-[100px] 
             hidden  md:flex items-center justify-center">
-                <div className="h-[98%] bg-sky-400  flex md:gap-1 lg:gap-10 w-[90%] md:mx-0 lg:mx-10">
+                <div className="h-[98%] flex md:gap-1 lg:gap-10 w-[90%] md:mx-0 lg:mx-10">
                     <div className="h-[100%] lg:w-[33%] md:w-[40%]:lg:w-[33%]">
                         <div className=" h-[45%] flex items-center justify-center">
                             <div className="w-[250px] h-[250px] rounded-full">
