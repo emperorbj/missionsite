@@ -32,7 +32,7 @@ const Events = () => {
                     <h1 className='text-center font-myPoppins text-3xl font-bold mt-40 mb-[20px]'>FOCUS GROUPS</h1>
                     <div className="grid bg-slate-200 rounded-[30px] grid-cols-1 
                     md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-8 p-4 lg:p-10 md:mx-2 lg:mx-[20px] mb-[20px]">
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px]rounded-[8px] flex flex-col gap-3">
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px]rounded-[8px] flex flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                                 <img alt="" className='h-full w-full object-cover' src="https://www.msureporter.com/wp-content/uploads/2019/09/evangelism.jpg"/>
                             </div>
@@ -43,7 +43,7 @@ const Events = () => {
                                 
                             </div>
                         </div>
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px]  rounded-[8px] flex flex-col gap-3">
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px]  rounded-[8px] flex flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                                 <img alt="" className='object-cover h-full w-full' src="https://globalconference.ca/wp-content/uploads/2023/07/What-Is-a-Church-Conference.png" />
                             </div>
@@ -53,7 +53,7 @@ const Events = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px] rounded-[8px] flex flex-col gap-3">
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px] rounded-[8px] flex flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                                 <img alt="" className='h-full w-full object-cover' src="https://gocic.org/wp-content/uploads/2019/12/sr_437818-1.jpg"/>
                             </div>
@@ -63,7 +63,7 @@ const Events = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px] rounded-[8px] flex 
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px] rounded-[8px] flex 
                         flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                             <img alt="" className='h-full w-full object-cover' src="https://thecophq.org/wp-content/uploads/2022/12/Youth-Ministry-Launches-Nationwide-Teens-Evangelism-Drive-2000x1125.jpg"/>
@@ -74,7 +74,7 @@ const Events = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px] rounded-[8px] 
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px] rounded-[8px] 
                         flex flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                                 <img alt="" className='h-full w-full object-cover' src="https://www.pushingjesusagenda.org/images/jux_gallery/str0004.jpg"/>
@@ -83,7 +83,7 @@ const Events = () => {
                                 <h1 className='font-semibold text-xl'>Street Evangelism</h1>
                             </div>
                         </div>
-                        <div className="md:w-[360px] lg:w-[450px] h-[360px] rounded-[8px] flex flex-col gap-3">
+                        <div className="md:w-[360px] lg:w-[370px] h-[360px] rounded-[8px] flex flex-col gap-3">
                             <div className="h-[320px] shadow-md rounded-[8px]">
                                 <img alt="" className='w-full h-full object-cover' src="https://www.churchrelevance.com/wp-content/uploads/2019/09/Church-Conference.jpg"/>
                             </div>
