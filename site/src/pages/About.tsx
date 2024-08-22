@@ -10,6 +10,7 @@ import { GlobeEuropeAfricaIcon } from '@heroicons/react/20/solid'
 import { useTypewriter, Cursor, Typewriter } from 'react-simple-typewriter'
 import { MarqueeDemo } from "@/component/MarqueeDemo"
 import { Subscribe } from "@/component/Subscribe"
+import AboutImage from "../assets/aboutUsCMT.jpeg";
 
 
 
@@ -29,7 +30,7 @@ const About = () => {
             gap-4  lg:gap-5 px-[10] 
             py-[10px] rounded-[10px] h-[800px] md:h-[1000px] lg:h-[550px] bg-sky-100 mx-1 lg:mx-[40px]">
                     <div className="ml-0 sm:hidden  md:ml-[20px] w-full lg:w-[50%] h-[500px] ">
-                        <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src="https://evidenceandanswers.org/wp-content/uploads/sites/2/Pat_Class_03_1080p.jpeg" alt="" />
+                        <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src={AboutImage} alt="" />
                     </div>
                     <div className="w-full lg:w-[50%] flex flex-col gap-5 px-4 md:px-[30px] h-[500px] items-center justify-center">
                         <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
