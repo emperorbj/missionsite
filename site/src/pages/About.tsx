@@ -26,15 +26,16 @@ const About = () => {
         <>
             <Navbar />
                 <div className="mt-[25px] md:mt-[85px] font-myWorkSans 
-            flex flex-col-reverse lg:flex lg:flex-row 
+            flex flex-col-reverse lg:flex-row 
             gap-4  lg:gap-5 px-[10] 
             py-[10px] rounded-[10px] h-[800px] md:h-[1000px] lg:h-[550px] bg-sky-100 mx-1 lg:mx-[40px]">
-                    <div className="ml-0 sm:hidden  md:ml-[20px] w-full lg:w-[50%] h-[500px] ">
-                        <img className="rounded-[30px] shadow h-[100%] w-[100%] object-cover" src={AboutImage} alt="" />
+                    <div className="ml-0  md:ml-[20px] w-full xl:w-[50%] h-[350px] md:h-[500px] ">
+                        <img className="rounded-[30px] h-[100%] w-[100%] object-cover" src={AboutImage} alt="" />
                     </div>
-                    <div className="w-full lg:w-[50%] flex flex-col gap-5 px-4 md:px-[30px] h-[500px] items-center justify-center">
+                    <div className="w-full lg:w-[50%] flex flex-col gap-5 px-4 md:px-[30px] h-[600px] md:h-[500px] 
+                    items-center justify-center">
                         <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
-                        <p className=" text-center text-lg md:text-xl leading-4 md:leading-8 px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
+                        <p className=" text-center text-xl md:text-xl leading-6 md:leading-8 px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
                             We seek to present evidence that the Bible is true.
                             We do not require others in the body of Christ with whom we partner to hold
                             certain positions on many of the doctrinal or theological debates that take
