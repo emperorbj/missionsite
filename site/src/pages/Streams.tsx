@@ -71,7 +71,7 @@ const Streams = () => {
                     <h1 className='text-center font-myWorkSans text-3xl font-bold mt-5 md:mt-40'>CHECK OUT OUR RECENT VIDEOS</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 
                     lg:gap-10 p-5 lg:p-10">
-                        <div className=" w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className=" w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' 
@@ -82,7 +82,7 @@ const Streams = () => {
                                 <h1 className='font-semibold text-xl'>Is meaning possible without God?</h1>
                             </div>
                         </div>
-                        <div className="w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className="w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%"  
@@ -92,7 +92,7 @@ const Streams = () => {
                                 <h1 className='font-semibold text-xl'>William craig on Evolution</h1>
                             </div>
                         </div>
-                        <div className="w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className="w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
@@ -102,7 +102,7 @@ const Streams = () => {
                                 <h1 className='font-semibold text-xl'>Cause and Effect</h1>
                             </div>
                         </div>
-                        <div className="w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className="w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%"  
@@ -112,7 +112,7 @@ const Streams = () => {
                                 <h1 className='font-semibold text-xl'>Is meaning possible without God?</h1>
                             </div>
                         </div>
-                        <div className="w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className="w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
@@ -122,7 +122,7 @@ const Streams = () => {
                                 <h1 className='font-semibold text-xl'>William craig on Evolution</h1>
                             </div>
                         </div>
-                        <div className="w-[323px] sm:w-[570px] md:w-[360px] lg:w-[470px] border-[2px] shadow-md 
+                        <div className="w-[323px] sm:w-[570px] md:w-[320px] lg:w-[370px] border-[2px] shadow-md 
                         hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
                             <div className="h-[380px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
