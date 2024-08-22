@@ -23,14 +23,14 @@ const Navbar = () => {
                     height={35} style={{marginRight:"20px"}}/>
                 </div>
                 {openMenu &&
-                    <div className=' shadow-sm border border-slate-300 rounded-md mr-1 flex absolute items-center top-[61px] right-0 flex-col w-[400px] text-3xl gap-6  h-[550px]  bg-slate-200 md:hidden'>
-                        <Link to="/" className="hover:text-yellow-500  w-[110px] text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                    <div className=' shadow-sm border border-slate-300 rounded-md mr-1 flex absolute items-center top-[61px] right-0 flex-col w-[400px] text-xl gap-6  h-[550px]  bg-slate-200 md:hidden'>
+                        <Link to="/" className="hover:text-yellow-500  w-[110px] text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Home</button>
                         </Link>
-                        <Link to="/about" className="hover:text-yellow-500  w-[110px] text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/about" className="hover:text-yellow-500  w-[110px] text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>About us</button>
                         </Link>
-                        <Link to="/contact" className="hover:text-yellow-500 w-[110px] text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/contact" className="hover:text-yellow-500 w-[110px] text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Contact</button>
                         </Link>
                         <Link to="/resources">
