@@ -5,6 +5,7 @@ import Teams from '@/component/Teams';
 import NewsLetters from '@/component/NewsLetters';
 import Sponsors from '@/component/Sponsors';
 import Footer from '@/component/Footer';
+
 const Home = () => {
     return (
         <div className=' w-full'>
@@ -18,6 +19,7 @@ const Home = () => {
             <NewsLetters/>
             <Sponsors/>
             <Footer/>
+
         </div>
     )
 }
