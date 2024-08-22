@@ -131,7 +131,7 @@ const Blog = () => {
                         </div>
                         <div className="mx-4 md:mx-0 md:w-[270px] lg:w-[470px] rounded-[8px] flex flex-col gap-3">
                             <div className="h-[300px]">
-                                <img className='h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/05/Grief-blog-1080x675.jpg" alt="" />
+                                <img className=' h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/05/Grief-blog-1080x675.jpg" alt="" />
                             </div>
                             <div className="w-[100%] h-[160px] flex flex-col gap-5 items-center justify-center">
                                 <h1 className='font-semibold text-xl'>How Apologetics Helps Through Times of Grief</h1>
@@ -142,7 +142,7 @@ const Blog = () => {
                         </div>
                         <div className="mx-4 md:mx-0 md:w-[270px] lg:w-[470px] rounded-[8px] flex flex-col gap-3">
                             <div className="h-[300px]">
-                                <img className='h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/05/CE-BLOG-COVER-Recommended-Books-1080x675.jpg" alt="" />
+                                <img className=' h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/05/CE-BLOG-COVER-Recommended-Books-1080x675.jpg" alt="" />
                             </div>
                             <div className="w-[100%] h-[160px] flex flex-col gap-5 items-center justify-center">
                                 <h1 className='font-semibold text-center text-xl'>Recommended Books on Historical Apologetics for The Gospels & Acts</h1>
@@ -164,7 +164,7 @@ const Blog = () => {
                         </div>
                         <div className="mx-4 md:mx-0 md:w-[270px] lg:w-[470px] rounded-[8px] flex flex-col gap-3">
                             <div className="h-[300px]">
-                                <img className='h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/04/Esther-blog-1080x675.jpg" alt="" />
+                                <img className=' h-[100%] rounded-[8px] w-[100%] object-cover' src="https://crossexamined.org/wp-content/uploads/2024/04/Esther-blog-1080x675.jpg" alt="" />
                             </div>
                             <div className="w-[100%] h-[160px] flex flex-col gap-5 items-center justify-center">
                                 <h1 className='font-semibold text-xl'>Evidence for the Book of Esther</h1>
