@@ -33,12 +33,12 @@ const Navbar = () => {
                         <Link to="/contact" className="hover:text-yellow-500 w-[110px] text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Contact</button>
                         </Link>
-                        <Link to="/resources">
+                        
                             <DropdownTwo />
-                        </Link>
-                        <Link to="/events">
+                        
+                        
                             <DropdownMenuDemo />
-                        </Link>
+                        
                     </div>
                 }
                 

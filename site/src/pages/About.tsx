@@ -11,6 +11,7 @@ import { useTypewriter, Cursor, Typewriter } from 'react-simple-typewriter'
 import { MarqueeDemo } from "@/component/MarqueeDemo"
 import { Subscribe } from "@/component/Subscribe"
 import AboutImage from "../assets/aboutUsCMT.jpeg";
+import { Link } from "lucide-react"
 
 
 
@@ -45,7 +46,9 @@ const About = () => {
                         {/* <button className="text-xl text-black px-[40px] py-[10px]  
                         rounded-md shadow border border-black hover:text-yellow-400 
                         hover:bg-slate-800 bg-yellow-400">Join us</button>*/}
+                        <Link to="/contact">
                         <Subscribe/>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex-col mx-6 md:mx-0 md:flex md:flex-row items-center h-32 my-24 justify-center space-y-4 md:space-y-0 

@@ -1,6 +1,7 @@
 //import HeaderPix from '../assets/header1.jpg';
 import Navbar from './Navbar'
 import video from '../assets/video (1).mp4'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -13,7 +14,11 @@ const Header = () => {
                 <div className='text-center text-white'>
                     <h1 className='text-5xl font-bold'>Welcome to Our Site</h1>
                     <p className='mt-4 text-xl'>Your Success Begins Here</p>
-                    <button className='text-[20px] font-bold mt-[30px] rounded-[10px] py-[14px] px-[60px] border-black border bg-yellow-400 hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
+                    <Link to="/contact">
+                    <button className='text-[20px] font-bold mt-[30px] rounded-[10px] 
+                    py-[14px] px-[60px] border-black border bg-yellow-400 
+                    hover:bg-slate-800 hover:text-yellow-400 '>Join us</button>
+                    </Link>
                 </div>
             </div>
         </div>
