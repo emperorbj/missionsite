@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
 import Swal from 'sweetalert2'
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
 
 function classNames(...classes: (string | boolean | null | undefined)[]) {
     return classes.filter(Boolean).join(' ')
@@ -9,15 +11,17 @@ function classNames(...classes: (string | boolean | null | undefined)[]) {
 
 const Forms = () => {
 
+    const [loading, setLoading] = useState(false);
+
     const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         const formData = new FormData(event.currentTarget);
-    
+
         formData.append("access_key", "36eb3d33-64c9-4ad4-af03-5e4f843e3560");
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+        setLoading(true);
         const res = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
             headers: {
@@ -25,27 +29,33 @@ const Forms = () => {
                 Accept: "application/json"
             },
             body: json
-            }).then((res) => res.json());
-        
-            if (res.success) {
-                Swal.fire({
-                    title: "Success!",
-                    text: "Message delivered",
-                    icon: "success"
-                });
-            }
-        };
+        })
+            .then((res) => res.json());
+
+        setLoading(false);
+
+        if (res.success) {
+            Swal.fire({
+                title: "Success!",
+                text: "Message delivered",
+                icon: "success"
+            });
+        }
+    };
 
     const [agreed, setAgreed] = useState(false)
 
     return (
         <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 w-full lg:w-[50%]">
             <div
-                className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+                className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl 
+                sm:top-[-20rem]"
                 aria-hidden="true"
             >
                 <div
-                    className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-sky-500 opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
+                    className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none 
+                    -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr 
+                    from-[#ff80b5] to-sky-500 opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
                     style={{
                         clipPath:
                             'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -59,7 +69,7 @@ const Forms = () => {
                 </p>
             </div>
             <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20"
-            onSubmit={onSubmit}>
+                onSubmit={onSubmit}>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
                         <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -211,13 +221,21 @@ const Forms = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
-                        className="block w-[35%] md:w-[40%] lg:w-full rounded-md border border-black 
-                        bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold 
+                        className="block w-[35%] md:w-[40%] lg:w-full rounded-md border 
+                        border-sky-400 
+                        bg-sky-400 px-3.5 py-3.5 text-center text-sm font-semibold 
                         text-black shadow-sm hover:bg-slate-800 hover:text-yellow-400 
-                        focus-visible:outline focus-visible:outline-2 
-                        focus-visible:outline-offset-2 focus-visible:outline-sky-400"
+                        focus-visible:outline focus-visible:outline-2
+                         
+                        focus-visible:outline-offset-2 focus-visible:outline-sky-400
+                        "
+                        disabled={loading}
                     >
-                        Lets talk
+                        {loading ? (
+                            <AiOutlineLoading3Quarters className='animate-spin ml-[260px] h-6 w-6' /> // <-- Spinner icon
+                        ) : (
+                            'send'
+                        )}
                     </button>
                 </div>
             </form>

@@ -7,6 +7,7 @@ import { useEffect } from "react"
 
 const Contact = () => {
 
+
     useEffect(() => {
         const script = document.createElement('script');
         script.src = "https://assets.calendly.com/assets/external/widget.js";

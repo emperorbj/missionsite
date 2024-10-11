@@ -30,14 +30,14 @@ const team = [
 
     },
     {
-        id: 4,
+        id: 5,
         name: "Charles",
         role: "Training Facilitator",
         image: "/person1.jpg"
 
     },
     {
-        id: 4,
+        id: 6,
         name: " Doe",
         role: "Head of Prayer Department",
         image: "/team1.jpg",

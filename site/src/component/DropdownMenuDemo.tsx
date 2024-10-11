@@ -18,7 +18,7 @@ export function DropdownMenuDemo() {
 return (
     <DropdownMenu>
     <DropdownMenuTrigger asChild>
-        <Button variant="outline"  size="lg">Events</Button>
+        <Button variant="outline"  size="sm">Events</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
         <DropdownMenuLabel className="text-xl font-bold">Monthly Program</DropdownMenuLabel>

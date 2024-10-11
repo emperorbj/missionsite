@@ -25,7 +25,7 @@ export function DropdownTwo() {
 return (
     <DropdownMenu>
     <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="lg">Resources</Button>
+        <Button variant="outline" size="sm">Resources</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
         <DropdownMenuLabel className="text-xl font-bold">Resources here</DropdownMenuLabel>
