@@ -11,6 +11,7 @@ import Events from './pages/Events';
 import Reason from './pages/Reason';
 import { useLayoutEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import Navbar from './component/Navbar';
 
 function App() {
   useLayoutEffect(() => {
@@ -34,7 +35,8 @@ function AnimatedRoutes() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode='sync'>
+      <Navbar/>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
         <Route path="/resources" element={<PageWrapper><Resources /></PageWrapper>} />

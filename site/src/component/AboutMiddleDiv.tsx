@@ -7,7 +7,7 @@ import { PencilSquareIcon,HeartIcon,
 const AboutMiddleDiv = () => {
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8 my-32 gap-2 
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-8 my-32 gap-2 
             py-[10px]  w-full">
                 <div className="w-[100%] h-full rounded-md shadow-md border border-blue-300">
                     <div className=" flex items-center justify-center mt-5 ml-5 

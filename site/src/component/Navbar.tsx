@@ -1,82 +1,112 @@
+import { NavLink } from 'react-router-dom';
+// import dropdown from '../assets/orgdrop.png'
+import { useState,useEffect } from 'react';
+import { Bars4Icon } from '@heroicons/react/20/solid';
 import { Link } from 'react-router-dom';
 import { DropdownMenuDemo } from './DropdownMenuDemo';
 import { DropdownTwo } from './DropdownTwo';
-import { Bars4Icon } from '@heroicons/react/20/solid';
-import { useState } from 'react';
 
 
 const Navbar = () => {
 
-    const [openMenu, setOpenMenu] = useState<boolean>(false)
-    
+    const [openMenu, setOpenMenu] = useState(false)
+    const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY > lastScrollY) {
+                // Scrolling down
+                setIsNavbarVisible(false);
+            } else {
+                // Scrolling up
+                setIsNavbarVisible(true);
+            }
+
+            setLastScrollY(currentScrollY);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, [lastScrollY]);
+
     return (
-        
-        <nav>
-            
-            <div className="relative  top-0 left-0 flex items-center 
-            justify-between w-full h-[60px] z-30">
-                
-                <Link to="/">
-                <div className="w-[100px] px-[10px] mx-10 text-3xl">
+        // className=' relative md:fixed text-[16px] top-0 left-0 flex items-center 
+        // justify-between w-full h-[65px] bg-transparent z-30'
+
+        <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[65px] bg-white z-30 transition-transform duration-300 ${
+            isNavbarVisible ? "translate-y-0" : "-translate-y-full"
+        }`}>
+            <NavLink to='/'>
+                <div className='w-[100px]  px-[10px]  mx-10 text-3xl'>
                     logo
                 </div>
-                </Link>
-
+            </NavLink>
                 <div className=' block cursor-pointer md:hidden'>
-                    <Bars4Icon onClick={()=> setOpenMenu(!openMenu)} width={35} 
-                    height={35} style={{marginRight:"20px"}}/>
+                    <Bars4Icon onClick={()=> setOpenMenu(!openMenu)} width={35} height={35} 
+                    style={{marginRight:"20px"}}/>
                 </div>
                 {openMenu &&
-                    <div className=' shadow-sm border border-slate-300 rounded-md mr-1 flex 
-                    absolute items-center top-[61px] right-0 flex-col w-[400px] text-xl gap-6  h-[550px]  
-                    bg-slate-200 md:hidden'>
-                        <Link to="/" className="hover:text-sky-500  w-[110px] text-center 
-                        text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
-                            Home
+                    <div className=' shadow-sm border border-slate-300 rounded-md mr-1 
+                    flex absolute items-center top-[61px] right-0 flex-col w-[400px] 
+                    text-3xl gap-6  h-[550px]  bg-slate-200 md:hidden'>
+                        <Link to="/" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Home</button>
                         </Link>
                         <Link to="/about" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
-                            About us
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>About us</button>
                         </Link>
                         <Link to="/contact" className="hover:text-sky-500 w-[110px] 
-                        text-center text-[16px] font-bold rounded-lg py-[12px] px-[10px]">
-                            Contact
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Contact</button>
                         </Link>
                         
-                        <DropdownTwo />
-                        
-                        
-                        <DropdownMenuDemo />
-                        
+                        <Link to="/whatsapp" className="hover:text-sky-500 w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Join Us</button>
+                        </Link>
                     </div>
                 }
+                {/* DESKTOP NAV */}
+            <div className='hidden md:flex md:gap-4 lg:gap-[100px] md:mr-3 lg:mr-[60px] relative'>
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 text-[15px] font-medium rounded-lg py-[12px] px-[10px]'
+                    }
+                >
+                    Home
+                </NavLink>
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 font-medium rounded-lg py-[12px] px-[10px]'
+                    }
+                >
+                    <button>About us</button>
+                </NavLink>
+                <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800  font-medium rounded-lg py-[12px] px-[10px]'
+                    }
+                >
+                    Contact
+                </NavLink>
                 
-                <div className="hidden md:flex lg:gap-[30px] md:gap-2 md:mr-[60px]">
-                    
-                    <Link to="/" className="hover:text-sky-200 text-primary cursor-pointer  w-[110px] text-center 
-                    text-sm font-bold rounded-lg py-[12px] px-[10px]">
-                        Home
-                    </Link>
-                    <Link to="/about" className="hover:text-sky-200 text-primary w-[110px] 
-                    text-center 
-                    text-sm font-bold rounded-lg py-[12px] cursor-pointer px-[10px]">
-                        About us
-                    </Link>
-                    <Link to="/contact" className="hover:text-sky-200 cursor-pointer text-primary w-[110px] text-center 
-                    text-sm font-bold rounded-lg py-[12px] px-[10px]">
-                        Contact
-                    </Link>
-                    
-                    <DropdownTwo />
-                    
-                    
-                    <DropdownMenuDemo/>
-                    
-                </div>
-                
+                <DropdownTwo/>
+                <DropdownMenuDemo/>
             </div>
-            
         </nav>
+
+
     );
 };
 

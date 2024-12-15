@@ -6,7 +6,7 @@ import Navbar from "@/component/Navbar"
 const Reason = () => {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             {/* <div className="mt-[70px] ml-[90px] w-[85%]  bg-purple-600 h-[70vh]">
             
             </div> */}

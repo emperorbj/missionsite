@@ -7,7 +7,7 @@ import NewsLetters from "@/component/NewsLetters"
 const Blog = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             {/* top section */}
             <section className="md:mx-[10px] lg:mx-[45px] font-myFont mt-[65px] md:h-[1600px] 
             lg:h-[720px]">

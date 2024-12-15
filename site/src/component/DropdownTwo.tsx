@@ -25,30 +25,30 @@ export function DropdownTwo() {
 return (
     <DropdownMenu>
     <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="sm">Resources</Button>
+        <Button variant="outline" className="text-[16px] py-6 font-semibold">Resources</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel className="text-xl font-bold">Resources here</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-lg font-bold">Resources here</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
         <DropdownMenuItem>
             {/* <User className="mr-2 h-4 w-4" /> */}
             <NavLink to="/blog">
-                <span className="text-lg font-medium">Blogs</span>
+                <span className="text-[16px] font-medium">Blogs</span>
             </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             
             <NavLink to="/ebooks">
-            <span className="text-lg font-medium">E-books</span>
+            <span className="text-[16px] font-medium">E-books</span>
             </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             {/* <Settings className="mr-2 h-4 w-4" /> */}
             <NavLink to="/stream">
-            <span className="text-lg font-medium">Streams</span>
+            <span className="text-[16px] font-medium">Streams</span>
             </NavLink>
         </DropdownMenuItem>
         <DropdownMenuSeparator />

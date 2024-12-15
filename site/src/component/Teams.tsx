@@ -3,51 +3,51 @@
 const team = [
     {
         id: 1,
-        name: " Cane",
+        name: "Ayorinde Daniel",
         role: "Founder/CEO",
-        image: "/person3.jpg"
+        image: "/profile4.jpg"
 
     },
     {
         id: 2,
-        name: "Ameliat Cane",
+        name: "Rachael Cane",
         role: "Head of Communications",
-        image: "/team2.jpg"
+        image: "/profile1.jpg"
 
     },
     {
         id: 3,
-        name: "Busola Cane",
+        name: "Adeoba Adejuwon",
         role: "Head of Missions",
-        image: "/team3.jpg",
+        image: "/profile3.jpg",
 
     },
     {
         id: 4,
-        name: "Chike",
+        name: "Oluchi Favour",
         role: "General Secretary",
-        image: "/team4.jpg"
+        image: "/profile2.jpg"
 
     },
     {
         id: 5,
-        name: "Charles",
+        name: "Opatola Bolaji",
         role: "Training Facilitator",
-        image: "/person1.jpg"
+        image: "/profile6.jpg"
 
     },
     {
         id: 6,
-        name: " Doe",
+        name: "Ayorinde Moyinoluwa",
         role: "Head of Prayer Department",
-        image: "/team1.jpg",
+        image: "/profile5.jpg",
 
     },
 ]
 
 const Teams = () => {
     return (
-        <div className="bg-white py-24 sm:py-32 mx-[60px] mt-[20px] rounded-[10px]">
+        <div className="bg-white py-24 sm:py-32 mx-3 md:mx-[60px] mt-[20px] rounded-[10px]">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
             <div className="max-w-2xl">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>

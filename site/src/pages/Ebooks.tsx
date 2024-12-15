@@ -8,7 +8,7 @@ const Ebooks = () => {
     return (
 
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="w-full h-[100vh] flex items-center justify-center bg-slate-100">
                 
                 <div className="w-[450px] h-[450px]">
