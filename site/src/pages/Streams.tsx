@@ -2,7 +2,6 @@ import Footer from "@/component/Footer"
 import {
     Card,
     CardContent,
-    CardFooter,
     CardHeader,
 } from "@/components/ui/card"
 import ReactPlayer from 'react-player'

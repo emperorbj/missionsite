@@ -1,15 +1,13 @@
-//import HeaderPix from '../assets/header1.jpg';
-import Navbar from './Navbar'
+
 import video from '../assets/video (1).mp4'
 import { Link } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
-// import { useState } from 'react'
+import { motion, AnimatePresence,Variants } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 
 
 const MotionButton = motion.create(Button);
 
-const buttonVariant = {
+const buttonVariant: Variants = {
     hover: {
         scale: 1.1,
         boxShadow: '0px 0px 3px rgb(255,255,255)',

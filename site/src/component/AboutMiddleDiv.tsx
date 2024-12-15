@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { PencilSquareIcon,HeartIcon,
     CheckBadgeIcon,
     GlobeEuropeAfricaIcon 

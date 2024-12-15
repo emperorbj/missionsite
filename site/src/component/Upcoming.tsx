@@ -5,14 +5,13 @@ import Program4 from '../assets/program4.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-import {motion} from 'framer-motion'
+import {motion,Variants} from 'framer-motion'
 import {Button} from '@/components/ui/button'
 
 const MotionButton = motion.create(Button);
 
-const buttonVariant = {
+const buttonVariant:Variants = {
     hover: {
-        //scale: [1.1,1,1.1,1,1.1,1,1.1,1,1.1,],
         scale: 1.1,
         boxShadow:'0px 0px 3px rgb(255,255,255)',
         transition: {
