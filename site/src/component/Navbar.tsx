@@ -54,7 +54,7 @@ const Navbar = () => {
                 {openMenu &&
                     <div className=' shadow-sm border border-slate-300 rounded-md mr-1 
                     flex absolute items-center top-[61px] right-0 flex-col w-[400px] 
-                    text-3xl gap-6  h-[550px]  bg-slate-200 md:hidden'>
+                    text-[18px] gap-2  h-[580px]  bg-slate-200 md:hidden'>
                         <Link to="/" className="hover:text-sky-500  w-[110px] 
                         text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Home</button>
@@ -71,6 +71,28 @@ const Navbar = () => {
                         <Link to="/whatsapp" className="hover:text-sky-500 w-[110px] 
                         text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Join Us</button>
+                        </Link>
+
+
+                        <Link to="/event" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Global Outreach</button>
+                        </Link>
+                        <Link to="/blog" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Blogs</button>
+                        </Link>
+                        <Link to="/streams" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Streams</button>
+                        </Link>
+                        <Link to="/ebooks" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>E-Books</button>
+                        </Link>
+                        <Link to="/faith-reason" className="hover:text-sky-500  w-[110px] 
+                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                            <button>Faith And Reason</button>
                         </Link>
                     </div>
                 }

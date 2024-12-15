@@ -1,5 +1,10 @@
 import Footer from "@/component/Footer"
-import Navbar from "@/component/Navbar"
+import {
+    Card,
+    CardContent,
+    CardFooter,
+    CardHeader,
+} from "@/components/ui/card"
 import ReactPlayer from 'react-player'
 
 const Streams = () => {
@@ -71,70 +76,84 @@ const Streams = () => {
                 <div className=" font-myFont">
                     <h1 className='text-center font-myWorkSans text-3xl font-bold mt-5 md:mt-40'>CHECK OUT OUR RECENT VIDEOS</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 
-                    lg:gap-10">
-                        <div className=" 
-                        border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
-                                <ReactPlayer className='object-cover' 
-                                width="100%" height="100%"  url="https://www.youtube.com/watch?v=6Jd6aHz9BrQ"
-                                />
-                            </div>
-                            <div className="flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Is meaning possible without God?</h1>
-                            </div>
-                        </div>
-                        <div className=" 
-                        border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
+                    lg:gap-4 px-3">
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
+                                    <ReactPlayer className='object-cover' 
+                                    width="100%" height="100%" url="https://www.youtube.com/watch?v=6Jd6aHz9BrQ"
+                                    />
+                                </CardHeader>
+                                <CardContent>
+                                   
+                                </CardContent>
+                               
+                        </Card>
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%"  
                                 url="https://www.youtube.com/watch?v=u9ELpG9T0h0" />
-                            </div>
-                            <div className="flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>William craig on Evolution</h1>
-                            </div>
-                        </div>
-                        <div className="border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
+                                </CardHeader>
+                                <CardContent>
+                                    
+                                </CardContent>
+                                
+                        </Card>
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
                                 url="https://www.youtube.com/watch?v=BGMwWQO_NzY" />
-                            </div>
-                            <div className="flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Cause and Effect</h1>
-                            </div>
-                        </div>
-                        <div className="border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
+                                </CardHeader>
+                                <CardContent>
+                               
+                                </CardContent>
+                               
+                        </Card>
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%"  
                                 url="https://www.youtube.com/watch?v=6Jd6aHz9BrQ" />
-                            </div>
-                            <div className="flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Is meaning possible without God?</h1>
-                            </div>
-                        </div>
-                        <div className="border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
+                                </CardHeader>
+                                <CardContent>
+                                   
+                                </CardContent>
+                                
+                        </Card>
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
                                 url="https://www.youtube.com/watch?v=u9ELpG9T0h0" />
-                            </div>
-                            <div className="flex flex-col gap-5 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>William craig on Evolution</h1>
-                            </div>
-                        </div>
-                        <div className="border-[2px] shadow-md 
-                        hover:bg-slate-50 rounded-[8px] flex flex-col gap-3">
-                            <div className="">
+                                </CardHeader>
+                                <CardContent>
+                                   
+                                </CardContent>
+                                
+                        </Card>
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
+                                <ReactPlayer className='object-cover' width="100%" height="100%" 
+                                url="https://www.youtube.com/watch?v=u9ELpG9T0h0" />
+                                </CardHeader>
+                                <CardContent>
+                                    
+                                </CardContent>
+                        </Card>
+
+
+                        <Card>
+                                <CardHeader className="relative h-[250px]">
                                 <ReactPlayer className='object-cover' width="100%" height="100%" 
                                 url="https://www.youtube.com/watch?v=BGMwWQO_NzY" />
-                            </div>
-                            <div className="flex flex-col gap-1 items-center justify-center">
-                                <h1 className='font-semibold text-xl'>Cause and Effect</h1>
-                            </div>
-                        </div>
+                                </CardHeader>
+                                <CardContent>
+                                    
+                                </CardContent>
+                        </Card>
+
                     </div>
                 </div>
             </section>

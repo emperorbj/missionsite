@@ -1,16 +1,19 @@
 import Footer from "@/component/Footer"
-import Navbar from "@/component/Navbar"
 import Lottie from 'lottie-react';
 import bookUs from '../Chatting.json';
 import ReachOut from '../assets/reachOut.webp'
-
-
+import {
+    Card,
+    CardContent,
+    CardFooter,
+    CardHeader,
+} from "@/components/ui/card"
 
 import { AnimateList } from "@/component/AnimateList";
 import { OrbitingCirclesDemo } from "@/component/OrbitingCircle";
 import {
     AlertDialog,
-    
+
     AlertDialogCancel,
     AlertDialogContent,
     AlertDialogDescription,
@@ -20,39 +23,30 @@ import {
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
+interface Card {
+    
+        id:number,
+        image:string,
+        title: string,
+}
 
 
+const CardData: Card[] = [
 
-const CardData = [
-    {
-        id: 1,
-        image: '/blog57.jpg',
-        title: 'title 1'
-    },
     {
         id: 2,
-        image: '/blog5.jpg',
-        title: 'title 2'
+        image: '/t2.png',
+        title: 'Campus Evangelism'
     },
     {
         id: 3,
-        image: '/blog5.jpg',
-        title: 'title 3'
+        image: '/t3.png',
+        title: 'Professionals'
     },
     {
         id: 4,
-        image: '/blog5.jpg',
-        title: 'title 4'
-    },
-    {
-        id: 5,
-        image: '/blog5.jpg',
-        title: 'title 5'
-    },
-    {
-        id: 6,
-        image: '/blog5.jpg',
-        title: 'title 6'
+        image: '/t4.png',
+        title: 'Institutions'
     }
 ]
 
@@ -61,7 +55,6 @@ const CardData = [
 const Events = () => {
     return (
         <>
-            <Navbar />
             <div className="mt-[10px] md:mt-[85px] lg:mt-[95px] flex flex-col lg:flex lg:flex-row  
             gap-5 px-0 md:px-[10] 
             font-myWorkSans py-1 md:py-[10px] 
@@ -89,7 +82,7 @@ const Events = () => {
                     </div>
                     <h1 className="text-3xl text-sky-400 font-semibold">We are sent to disciple nations</h1>
                     <OrbitingCirclesDemo />
-                    
+
                     <AlertDialog>
                         <AlertDialogTrigger className="border bg-primary px-14 rounded-md py-2">Join us</AlertDialogTrigger>
                         <AlertDialogContent>
@@ -101,7 +94,7 @@ const Events = () => {
                             </AlertDialogHeader>
                             <AlertDialogFooter>
                                 <AlertDialogCancel>Cancel</AlertDialogCancel>
-                                
+
                             </AlertDialogFooter>
                         </AlertDialogContent>
                     </AlertDialog>
@@ -113,9 +106,22 @@ const Events = () => {
                     <h1 className='text-center font-myPoppins text-3xl font-bold mt-40 mb-[20px]'>FOCUS GROUPS</h1>
                     <div className="grid grid-cols-1 
                     md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 p-4 lg:p-10 mx-14 md:mx-2 lg:mx-[20px]">
-                        {CardData.map((card, index) =>
+                        {CardData.map((card) =>
                         (
-                            <DaisyCard key={card.id} image={card.image} title={card.title} />
+                            <Card key={card.id}>
+                                <CardHeader>
+                                    <img src={card.image} alt="img" />
+                                </CardHeader>
+                                <CardContent className="text-center font-semibold">
+                                    <h2>
+                                        {card.title}
+                                    </h2>
+                                </CardContent>
+                                <CardFooter>
+                                    
+                                </CardFooter>
+                            </Card>
+
                         ))}
                     </div>
                 </div>

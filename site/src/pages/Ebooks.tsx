@@ -1,5 +1,4 @@
 
-import Navbar from "@/component/Navbar"
 import NotFound from "../File Not Found.json"
 import Lottie from "lottie-react"
 
@@ -8,7 +7,6 @@ const Ebooks = () => {
     return (
 
         <div>
-            {/* <Navbar/> */}
             <div className="w-full h-[100vh] flex items-center justify-center bg-slate-100">
                 
                 <div className="w-[450px] h-[450px]">

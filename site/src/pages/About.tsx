@@ -49,7 +49,7 @@ const About = () => {
                     />
 
                 </div>
-                <div className="hidden md:block absolute z-10 top-[10px] lg:top-[10px]
+                <div className="hidden lg:block absolute z-10 top-[10px] lg:top-[10px]
                     left-[130px]
                     lg:left-[40px] 
                     md:top-[60px] md:left-[200px] ml-0 md:ml-0 
@@ -58,13 +58,13 @@ const About = () => {
                     h-[200px] w-[200px] lg:h-[250px] ">
                     <img className="h-[100%] rounded-full w-[100%] object-cover" src={AboutImage} alt="" />
                 </div>
-                <div className="hidden md:block absolute bg-slate-600 top-[220px] left-[160px] 
+                <div className="hidden absolute bg-slate-600 top-[220px] left-[160px] 
                     ml-0 md:ml-0 lg:block lg:w-72 border
                     shadow-lg 
                     rounded-full h-[170px] w-[170px] md:h-72 ">
                     <img className="h-[100%] rounded-full w-[100%] object-cover" src="/blog5.jpg" alt="" />
                 </div>
-                <div className="hidden md:block absolute bg-sky-500 top-[100px] left-[360px] 
+                <div className="hidden lg:block absolute bg-sky-500 top-[100px] left-[360px] 
                     md:left-[340px]  md:top-[160px] 
                     lg:left-[280px] lg:top-[18px] 
                     ml-0 md:ml-0 border

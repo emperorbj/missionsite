@@ -1,4 +1,4 @@
-import Navbar from "@/component/Navbar"
+
 import Forms from "../component/Forms"
 import Footer from "@/component/Footer"
 import Lottie from 'lottie-react'
