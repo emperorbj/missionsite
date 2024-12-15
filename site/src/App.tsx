@@ -12,6 +12,7 @@ import Reason from './pages/Reason';
 import { useLayoutEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Navbar from './component/Navbar';
+import { ReactNode } from "react";
 
 function App() {
   useLayoutEffect(() => {
@@ -52,7 +53,7 @@ function AnimatedRoutes() {
   );
 }
 
-const PageWrapper = ({ children }) => {
+const PageWrapper:React.FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <motion.div
       initial={{ opacity: 0, x: 100 }}
