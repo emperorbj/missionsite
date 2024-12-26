@@ -81,7 +81,8 @@ const About = () => {
                 flex flex-col gap-5 px-4 md:px-[30px] h-[300px] md:h-[500px] 
                     items-center justify-center">
                     <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
-                    <p className=" text-center font-myPoppins text-md md:text-xl leading-6 md:leading-8 px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
+                    <p className=" text-start font-myPoppins text-md md:text-xl leading-6 md:leading-8 
+                    px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
                         We seek to present evidence that the Bible is true.
                         We do not require others in the body of Christ with whom we partner to hold
                         certain positions on many of the doctrinal or theological debates that take

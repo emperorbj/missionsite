@@ -8,38 +8,13 @@ import { DropdownTwo } from './DropdownTwo';
 const Navbar = () => {
 
     const [openMenu, setOpenMenu] = useState(false)
-    const [isNavbarVisible, setIsNavbarVisible] = useState(true);
-    const [lastScrollY, setLastScrollY] = useState(0);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-
-            if (currentScrollY > lastScrollY) {
-                // Scrolling down
-                setIsNavbarVisible(false);
-            } else {
-                // Scrolling up
-                setIsNavbarVisible(true);
-            }
-
-            setLastScrollY(currentScrollY);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [lastScrollY]);
 
     return (
         // className=' relative md:fixed text-[16px] top-0 left-0 flex items-center 
         // justify-between w-full h-[65px] bg-transparent z-30'
 
-        <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[65px] bg-white z-30 transition-transform duration-300 ${
-            isNavbarVisible ? "translate-y-0" : "-translate-y-full"
-        }`}>
+        <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[65px] bg-white z-30 transition-transform duration-300`}>
             <NavLink to='/'>
                 <div className='w-[100px]  px-[10px]  mx-10 text-3xl'>
                     logo
