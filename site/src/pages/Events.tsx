@@ -11,17 +11,6 @@ import {
 
 import { AnimateList } from "@/component/AnimateList";
 import { OrbitingCirclesDemo } from "@/component/OrbitingCircle";
-import {
-    AlertDialog,
-
-    AlertDialogCancel,
-    AlertDialogContent,
-    AlertDialogDescription,
-    AlertDialogFooter,
-    AlertDialogHeader,
-    AlertDialogTitle,
-    AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
 
 interface Card {
     
@@ -83,21 +72,7 @@ const Events = () => {
                     <h1 className="text-3xl text-sky-400 font-semibold">We are sent to disciple nations</h1>
                     <OrbitingCirclesDemo />
 
-                    <AlertDialog>
-                        <AlertDialogTrigger className="border bg-primary px-14 rounded-md py-2">Join us</AlertDialogTrigger>
-                        <AlertDialogContent>
-                            <AlertDialogHeader>
-                                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-                                <AlertDialogDescription>
-                                    This will take you to our link
-                                </AlertDialogDescription>
-                            </AlertDialogHeader>
-                            <AlertDialogFooter>
-                                <AlertDialogCancel>Cancel</AlertDialogCancel>
-
-                            </AlertDialogFooter>
-                        </AlertDialogContent>
-                    </AlertDialog>
+                  
 
                 </div>
             </div>

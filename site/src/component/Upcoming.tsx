@@ -1,7 +1,4 @@
 
-import Program2 from '../assets/program2.jpg'
-import Program3 from '../assets/program3.jpg'
-import Program4 from '../assets/program4.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
@@ -37,7 +34,7 @@ const Upcoming = () => {
             <div className="md:w-[60%] lg:w-[40%] rounded-md md:rounded-md lg:rounded-md 
             shadow-lg " data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
                 <img className='h-[100%] w-[100%] rounded-md md:rounded-md object-cover 
-                object-center lg:rounded-md' src={Program2} alt="" />
+                object-center lg:rounded-md' src='/evil.jpg' alt="" />
             </div>
             <div className='md:w-[40%] lg:w-[50%] relative' data-aos-delay="400"  data-aos-duration="400" 
             data-aos-offset="250"  data-aos='zoom-in'>
@@ -58,10 +55,10 @@ const Upcoming = () => {
                     </div>
                 <div className='h-[100%] flex flex-col'>
                     <h1 className='text-3xl md:text-2xl lg:text-3xl font-bold 
-                    text-center pt-[50px] my-[10px] font-myPoppins text-sky-400'>Program title</h1>
+                    text-center pt-[50px] my-[10px] font-myPoppins text-sky-400'>Existence Of Evil</h1>
                     <p className='text-xl px-5 md:text-lg lg:text-xl md:px-3 
-                    font-myWorkSans lg:px-[50px] mb-[40px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur 
+                    font-myWorkSans lg:px-[50px] mb-[40px]'>
+                        A deep dive into the problem of evil and its implications for the believer. 
                     </p>
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'
@@ -74,11 +71,13 @@ const Upcoming = () => {
                 </div>
             </div>
         </div>
+        {/*  */}
         <div className='flex-col mx-4 h-[700px] md:flex lg:flex md:flex-row-reverse md:h-[400px] md:mx-1 
         lg:mx-[40px] my-[60px]'>
             <div className="md:w-[60%] lg:w-[40%] rounded-md md:rounded-md lg:rounded-md 
             shadow-lg" data-aos-delay="400"  data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
-                <img className='h-[100%] w-[100%] object-cover object-center rounded-md md:rounded-md lg:rounded-md' src={Program3} alt="" />
+                <img className='h-[100%] w-[100%] object-cover object-center 
+                rounded-md md:rounded-md lg:rounded-md' src='/trinity.jpg' alt="" />
             </div>
             <div className='md:w-[40%] lg:w-[50%] relative' data-aos-delay="400"  
             data-aos-duration="400" data-aos-offset="250"  data-aos='zoom-in'>
@@ -99,10 +98,9 @@ const Upcoming = () => {
                     </div>
             <div className='h-[100%] flex flex-col'>
                     <h1 className='text-3xl md:text-2xl lg:text-3xl font-bold 
-                    text-center pt-[50px] my-[10px] text-sky-400 font-myPoppins'>Program title</h1>
+                    text-center pt-[50px] my-[10px] text-sky-400 font-myPoppins'>A Case For Trinity</h1>
                     <p className='text-xl px-5 md:text-lg lg:text-xl md:px-3 
-                    lg:px-[50px] mb-[40px] font-myWorkSans'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatu
+                    lg:px-[50px] mb-[40px] font-myWorkSans'>A discourse on the trinity and its implications for the believer.
                     </p>
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'
@@ -115,12 +113,13 @@ const Upcoming = () => {
                 </div>
             </div>
         </div>
+        {/*  */}
         <div className='flex-col mx-4 h-[700px] md:flex md:flex-row lg:flex md:h-[400px] md:mx-1 lg:mx-[40px] my-[60px]'>
             <div className="md:w-[60%] lg:w-[40%] rounded-md md:rounded-md 
             lg:rounded-md shadow-lg " data-aos-delay="400"  data-aos-duration="400" 
             data-aos-offset="250"  data-aos='zoom-in'>
                 <img className='h-[100%] w-[100%] object-cover object-center rounded-md md:rounded-md ;
-                lg:rounded-md' src={Program4} alt="" />
+                lg:rounded-md' src='/witness.jpg' alt="" />
             </div>
             <div className='md:w-[40%] lg:w-[50%] relative' data-aos-delay="400"  data-aos-duration="400" 
             data-aos-offset="250"  data-aos='zoom-in'>
@@ -141,10 +140,10 @@ const Upcoming = () => {
                     </div>
                 <div className='h-[100%] flex flex-col'>
                     <h1 className='text-3xl md:text-2xl lg:text-4xl font-bold 
-                    text-center pt-[50px] my-[10px] font-myPoppins text-sky-400'>Program title</h1>
+                    text-center pt-[50px] my-[10px] font-myPoppins text-sky-400'>Emergence of Witness</h1>
                     <p className='text-xl px-5 md:text-lg lg:text-xl md:px-3 
-                    lg:px-[50px] mb-[40px] font-myWorkSans'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Totam consequatur eveniet deserunt iste aliquid deleniti libero Totam consequatur 
+                    lg:px-[50px] mb-[40px] font-myWorkSans'>
+                        A powerful program that will equip you to be an effective witness of Christ. 
                     </p>
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'

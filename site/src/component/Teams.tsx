@@ -4,7 +4,7 @@ const team = [
     {
         id: 1,
         name: "Ayorinde Daniel",
-        role: "Founder/CEO",
+        role: "President",
         image: "/profile4.jpg"
 
     },
@@ -18,7 +18,7 @@ const team = [
     {
         id: 3,
         name: "Adeoba Adejuwon",
-        role: "Head of Missions",
+        role: "Head of Missions and Outreach",
         image: "/profile3.jpg",
 
     },
@@ -40,7 +40,7 @@ const team = [
         id: 6,
         name: "Ayorinde Moyinoluwa",
         role: "Head of Prayer Department",
-        image: "/profile5.jpg",
+        image: "/moyin.jpg",
 
     },
 ]

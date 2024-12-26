@@ -29,13 +29,11 @@ const AboutLowerSection = () => {
                         />
                     </div>
                     <div className='h-[100%] flex flex-col'>
-                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Mission driven</h1>
+                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Our Vision</h1>
                         <p className='text-lg md:text-lg lg:text-xl md:px-5 lg:px-[50px] mb-[40px]'>
-                            MEDITECH wants to help build a world where every patient can access their health information and participate
-                            fully in their own care. We think all healthcare organizations can serve their communities quicker and more
-                            safely if patients and providers have instant access to records, knowledge, and data.
-                            To that end, we set out to create better technologies for secure and cost-effective care, with our scalable
-
+                        Empowering believers globally to
+                        fulfil the Great Commission with
+                        unwavering passion and purpose
                         </p>
                     </div>
                 </div>
@@ -63,12 +61,12 @@ const AboutLowerSection = () => {
                         />
                     </div>
                     <div className='h-[100%] flex flex-col'>
-                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Devoted to all our employees</h1>
+                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Mission</h1>
                         <p className='text-lg md:text-lg lg:text-xl md:px-5 lg:px-[50px] mb-[40px]'>
-                            At MEDITECH we believe there is strength in a diverse workforce, powered
-                            by the contributions of people from different backgrounds, perspectives,
-                            and life experiences. We are committed to fostering a work environment
-                            and culture where all our staff members can reach their fullest potential.
+                        Mobilize mission programs within Christian communities across campuses, denominations, 
+                        and corporate settings by conducting training on soul-winning and disciple-making, 
+                        establishing a network of Christian professionals to champion mission efforts, and 
+                        raising financial support for global mission initiatives.
                         </p>
                     </div>
                 </div>

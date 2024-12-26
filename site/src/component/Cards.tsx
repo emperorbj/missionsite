@@ -37,7 +37,7 @@ const Cards = () => {
                         }
                     }}
 
-                    className='relative flex flex-col h-[460px] 
+                    className='relative flex flex-col h-[260px] 
                     rounded-xl bg-white/10 backdrop-filter backdrop-blur-lg shadow-lg'>
 
                     <div className='px-3 py-3 absolute -top-6 left-20
@@ -46,14 +46,6 @@ const Cards = () => {
                     </div>
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl' style={{ objectFit: 'cover', objectPosition: 'center' }} src={Training} alt="" />
-                    </div>
-                    <div>
-                        <p className='px-[20px] text-center font-semibold text-gray-900 
-                        mx-4 
-                        text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Corrupti labore voluptatem voluptatum adipisci tenetur
-                            placeat veniam iusto ducimus repellat blanditiis eveniet,
-                            </p>
                     </div>
                 </motion.div>
 
@@ -68,7 +60,7 @@ const Cards = () => {
                         }
                     }}
 
-                    className='relative flex flex-col h-[460px] 
+                    className='relative flex flex-col h-[260px] 
                     rounded-xl bg-white/10 backdrop-filter backdrop-blur-lg shadow-lg z-10'>
 
                     <div className='px-3 py-3 absolute -top-6 left-20
@@ -79,13 +71,6 @@ const Cards = () => {
                         <img className='h-[100%] w-[100%] rounded-xl'
                             style={{ objectFit: 'cover', objectPosition: 'center' }} src={Outreach} alt="" />
                     </div>
-                    <div>
-                        <p className='px-[20px] text-center font-semibold text-gray-900 
-                        mx-4 
-                        text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Corrupti labore voluptatem voluptatum adipisci tenetur
-                            placeat veniam iusto ducimus repellat blanditiis eve</p>
-                    </div>
                 </motion.div>
 
                 <motion.div
@@ -99,7 +84,7 @@ const Cards = () => {
                         }
                     }}
 
-                    className='relative flex flex-col h-[460px] 
+                    className='relative flex flex-col h-[260px] 
                     rounded-xl bg-white/10 backdrop-filter backdrop-blur-lg shadow-lg z-10'>
 
                     <div className='px-3 py-3 absolute -top-6 left-20
@@ -109,13 +94,6 @@ const Cards = () => {
                     <div className='h-[260px]' >
                         <img className='h-[100%] w-[100%] rounded-xl'
                             style={{ objectFit: 'cover', objectPosition: 'center' }} src={Prayer} alt="" />
-                    </div>
-                    <div>
-                        <p className='px-[20px] text-center font-semibold text-gray-900 
-                        mx-4 
-                        text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Corrupti labore voluptatem voluptatum adipisci tenetur
-                            placeat veniam iusto ducimus repellat blanditiis eveniet</p>
                     </div>
                 </motion.div>
 

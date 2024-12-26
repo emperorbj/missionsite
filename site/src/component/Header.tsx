@@ -41,8 +41,8 @@ const Header = () => {
                             transition={{ type: 'spring', stiffness: 200, delay: 0.1 }}>
                             <AnimatePresence>
                                 <>
-                                    <h1 className='text-3xl md:text-5xl font-bold'>Welcome to Our Site</h1>
-                                    <p className='mt-4 text-xl'>Your Success Begins Here</p>
+                                    <h1 className='text-3xl md:text-5xl font-bold'>Therefore,<span className='text-teal-400'> go </span>and <span className='text-teal-400'>make</span> disciples of all <span className='text-teal-400'>nations</span>...</h1>
+                                    <p className='mt-4 text-xl'>(Matthew 28:19)</p>
                                 </>
                             </AnimatePresence>
 

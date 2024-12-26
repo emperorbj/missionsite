@@ -6,8 +6,6 @@ import Footer from "@/component/Footer"
 import NewsLetters from "@/component/NewsLetters"
 import { useTypewriter, Cursor, Typewriter } from 'react-simple-typewriter'
 import { MarqueeDemo } from "@/component/MarqueeDemo"
-
-import AboutImage from "../assets/aboutUsCMT.jpeg";
 import AboutLowerSection from "@/component/AboutLowerSection"
 import AboutMiddleDiv from "@/component/AboutMiddleDiv";
 import CircularProgress from "@/component/CircularProgress"
@@ -26,13 +24,10 @@ const About = () => {
     return (
         <>
 
-            <div className="mt-[25px] md:mt-[35px] font-myWorkSans 
-            flex flex-col-reverse lg:flex-row 
-            gap-4  lg:gap-5 px-[10] 
-            py-0 rounded-[10px] h-[700px]
-            justify-between 
-            md:h-[1000px] lg:h-[550px] 
-            mx-1 lg:mx-[40px] relative">
+            <div className="h-screen mt-[25px] font-myWorkSans 
+            flex flex-col md:flex-row 
+            gap-8 
+            py-0">
                 <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu 
                 overflow-hidden blur-3xl 
                 sm:top-[-20rem]"
@@ -49,50 +44,26 @@ const About = () => {
                     />
 
                 </div>
-                <div className="hidden lg:block absolute z-10 top-[10px] lg:top-[10px]
-                    left-[130px]
-                    lg:left-[40px] 
-                    md:top-[60px] md:left-[200px] ml-0 md:ml-0 
-                    lg:w-[250px] border 
-                    shadow-lg rounded-full 
-                    h-[200px] w-[200px] lg:h-[250px] ">
-                    <img className="h-[100%] rounded-full w-[100%] object-cover" src={AboutImage} alt="" />
+                <div className="w-full md:w-[40%] flex items-center justify-center">
+                    <div className="w-64 h-64 md:w-72 md:h-72 rounded-full">
+                        <img className="h-[100%] rounded-full w-[100%] object-cover" src="/profile4.jpg" alt="" />
+                    </div>
                 </div>
-                <div className="hidden absolute bg-slate-600 top-[220px] left-[160px] 
-                    ml-0 md:ml-0 lg:block lg:w-72 border
-                    shadow-lg 
-                    rounded-full h-[170px] w-[170px] md:h-72 ">
-                    <img className="h-[100%] rounded-full w-[100%] object-cover" src="/blog5.jpg" alt="" />
-                </div>
-                <div className="hidden lg:block absolute bg-sky-500 top-[100px] left-[360px] 
-                    md:left-[340px]  md:top-[160px] 
-                    lg:left-[280px] lg:top-[18px] 
-                    ml-0 md:ml-0 border
-                    shadow-lg
-                    rounded-full 
-                    md:rounded-bl-2xl md:rounded-tr-2xl 
-                    lg:rounded-full
-                    md:h-[260px] md:w-[260px] 
-                    h-[240px] w-[240px] 
-                    lg:w-[240px] lg:h-[240px]">
-                    <img className="h-[100%] rounded-full w-[100%] object-cover" src="/blog57.jpg" alt="" />
-                </div>
-                <div className="absolute top-[90px] md:top-[450px] lg:top-0 right-0 md:mt-0 w-full lg:w-[50%] 
-                flex flex-col gap-5 px-4 md:px-[30px] h-[300px] md:h-[500px] 
+               
+                <div className="w-full md:w-[60%] 
+                flex flex-col gap-3 px-2 md:px-[10px]
                     items-center justify-center">
                     <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
-                    <p className=" text-start font-myPoppins text-md md:text-xl leading-6 md:leading-8 
-                    px-0 md:px-1">Christ Mission Trust is an evangelical, inter-denominational Christian ministry.
-                        We seek to present evidence that the Bible is true.
-                        We do not require others in the body of Christ with whom we partner to hold
-                        certain positions on many of the doctrinal or theological debates that take
-                        place within the church. While we do believe that these issues are significant,
-                        our primary concerns are with the effects that false ideologies are having on the
-                        world and the body of believers (particularly our young people)</p>
+                    <p className=" text-start font-myPoppins text-[11.5px] sm:text-[14px] md:text-[14px] lg:text-[18px] leading-5 sm:leading-6 md:leading-8 
+                    px-0 md:px-1">
+                        Our mission is to engage and equip the body of Christ in fulfilling the Great Commission, a call that remains central to our work. 
+                        At CMT, we place a special emphasis on working with students. Our goal is to reach those who have yet to encounter Christ, engage the saved, mobilise them, and provide training to help them become true disciples and effective disciple-makers.
+                        For Christian professionals, our focus is to challenge and equip them with a mission-centred perspective. We believe that their professional platforms can serve as powerful tools for advancing the kingdom of God. By integrating their faith into their work, they can enthrone Jesus Christ among the nations and influence the world for His glory. 
+                    </p>
                 </div>
             </div>
-            <div className="flex-col mx-6 md:mx-0 md:flex md:flex-row items-center 
-            h-32 my-12 justify-center space-y-4 md:space-y-0 
+            <div className="h-screen flex-col flex 
+            sm:flex-row items-center justify-center space-y-4 md:space-y-0 
                 md:gap-5">
                 <div className=" px-3 py-4 flex items-center justify-center">
                     <CircularProgress />
@@ -105,7 +76,7 @@ const About = () => {
 
 
             </div>
-            <div className="flex mt-[300px] md:mt-[180px] items-center justify-center 
+            <div className="flex md:mt-[180px] items-center justify-center 
             text-3xl font-semibold ">
                 <h1>
                     Our{" "}

@@ -1,5 +1,5 @@
 import { NavLink,Link } from 'react-router-dom';
-import { useState,useEffect } from 'react';
+import { useState} from 'react';
 import { Bars4Icon } from '@heroicons/react/20/solid';
 import { DropdownMenuDemo } from './DropdownMenuDemo';
 import { DropdownTwo } from './DropdownTwo';
@@ -11,8 +11,6 @@ const Navbar = () => {
 
 
     return (
-        // className=' relative md:fixed text-[16px] top-0 left-0 flex items-center 
-        // justify-between w-full h-[65px] bg-transparent z-30'
 
         <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[65px] bg-white z-30 transition-transform duration-300`}>
             <NavLink to='/'>
