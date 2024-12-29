@@ -66,13 +66,13 @@ const About = () => {
             <div className="h-screen flex-col flex 
             sm:flex-row items-center justify-center space-y-4 md:space-y-0 
                 md:gap-5">
-                <div className=" px-3 py-4 flex items-center justify-center">
+                <div className="bg-yellow-500 w-full px-3 py-4 flex items-center justify-center">
                     <CircularProgress />
-                    <p className="text-xl md:text-3xl text-sky-700 font-bold">+{" "}Events</p>
+                    <p className="text-lg sm:text-xl md:text-3xl text-sky-700 font-bold">+{" "}Events</p>
                 </div>
-                <div className=" px-3 py-4 flex items-center justify-center">
+                <div className="bg-green-500 w-full px-4 y-4 flex items-center justify-center">
                     <CircularProgressTwo />
-                    <p className="text-xl md:text-3xl text-sky-800 font-bold">+{" "}Outreaches</p>
+                    <p className="text-lg sm:text-xl md:text-3xl text-sky-800 font-bold">+{" "}Outreaches</p>
                 </div>
 
 
