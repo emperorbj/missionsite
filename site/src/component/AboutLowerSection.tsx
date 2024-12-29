@@ -6,8 +6,8 @@ const AboutLowerSection = () => {
     return (
         <>
             {/* first  */}
-            <div className='font-myWorkSans flex flex-col md:flex md:flex-row h-[700px] 
-            md:h-[400px] mx-4 md:mx-[4px] lg:mx-[40px] mt-[110px]'>
+            <div className='bg-green-600 font-myWorkSans flex flex-col md:flex md:flex-row h-[450px] 
+            md:h-[400px] mx-4 md:mx-[4px] lg:mx-[40px] mt-[90px] md:mt-[110px]'>
                 <div className="md:w-[55%] lg:w-[50%] rounded-[10px] shadow-md shadow-black">
                     <img className='h-[100%] w-[100%] object-cover object-center rounded-[10px]' src="https://ehr.meditech.com/themes/ehrmeditech/images/about/meditech-staff-working-together-on-whiteboard.jpg" alt="" />
                 </div>
@@ -39,8 +39,8 @@ const AboutLowerSection = () => {
                 </div>
             </div>
             {/* second */}
-            <div className='font-myWorkSans flex flex-col md:flex md:flex-row-reverse 
-            h-[700px] md:h-[400px] mx-4 md:mx-[4px] lg:mx-[40px] mt-[80px]'>
+            <div className='bg-red-400 font-myWorkSans flex flex-col md:flex md:flex-row-reverse 
+            h-[600px] md:h-[400px] mx-4 md:mx-[4px] lg:mx-[40px] mt-[30px] md:mt-[80px]'>
                 <div className="md:w-[55%] lg:w-[50%] rounded-[10px]  shadow-md shadow-black">
                     <img className='h-[100%] w-[100%] object-cover object-center rounded-[10px] ' src="https://ehr.meditech.com/themes/ehrmeditech/images/about/two-meditechers-embracing-each-other.jpg" alt="" />
                 </div>

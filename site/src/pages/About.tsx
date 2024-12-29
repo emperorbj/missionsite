@@ -54,8 +54,9 @@ const About = () => {
                 flex flex-col gap-3 px-2 md:px-[10px]
                     items-center justify-center">
                     <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
-                    <p className=" text-start font-myPoppins text-[11.5px] sm:text-[14px] md:text-[14px] lg:text-[18px] leading-5 sm:leading-6 md:leading-8 
-                    px-0 md:px-1">
+                    <p className="text-center md:text-start font-myPoppins text-[14px] sm:text-[14px] 
+                    md:text-[14px] lg:text-[18px] leading-6 sm:leading-6 md:leading-8 
+                    px-4 md:px-1">
                         Our mission is to engage and equip the body of Christ in fulfilling the Great Commission, a call that remains central to our work. 
                         At CMT, we place a special emphasis on working with students. Our goal is to reach those who have yet to encounter Christ, engage the saved, mobilise them, and provide training to help them become true disciples and effective disciple-makers.
                         For Christian professionals, our focus is to challenge and equip them with a mission-centred perspective. We believe that their professional platforms can serve as powerful tools for advancing the kingdom of God. By integrating their faith into their work, they can enthrone Jesus Christ among the nations and influence the world for His glory. 
