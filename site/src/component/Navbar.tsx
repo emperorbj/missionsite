@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
 
-        <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[65px] bg-white z-30 transition-transform duration-300`}>
+        <nav  className={`shadow-sm relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[45px] bg-white z-30 transition-transform duration-300`}>
             <NavLink to='/'>
                 <div className='w-[100px]  px-[10px]  mx-10 text-3xl'>
                     logo
@@ -23,46 +23,46 @@ const Navbar = () => {
                     style={{marginRight:"20px"}}/>
                 </div>
                 {openMenu &&
-                    <div className=' shadow-sm border border-slate-300 rounded-md mr-1 
-                    flex absolute items-center top-[61px] right-0 flex-col w-[400px] 
-                    text-[18px] gap-2  h-[580px]  bg-slate-200 md:hidden'>
-                        <Link to="/" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                    <div className='shadow-sm border border-slate-300 rounded-md mr-1 
+                    flex absolute items-center top-[61px] right-0 flex-col w-[160px] 
+                    gap-2  h-[500px]  md:hidden'>
+                        <Link to="/" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Home</button>
                         </Link>
-                        <Link to="/about" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/about" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>About us</button>
                         </Link>
-                        <Link to="/contact" className="hover:text-sky-500 w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/contact" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Contact</button>
                         </Link>
                         
-                        <Link to="/whatsapp" className="hover:text-sky-500 w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/whatsapp" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Join Us</button>
                         </Link>
 
 
-                        <Link to="/event" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/event" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Global Outreach</button>
                         </Link>
-                        <Link to="/blog" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/blog" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Blogs</button>
                         </Link>
-                        <Link to="/streams" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/streams" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Streams</button>
                         </Link>
-                        <Link to="/ebooks" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/ebooks" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>E-Books</button>
                         </Link>
-                        <Link to="/faith-reason" className="hover:text-sky-500  w-[110px] 
-                        text-center text-[17.4px] font-bold rounded-lg py-[12px] px-[10px]">
+                        <Link to="/faith-reason" className="w-full hover:bg-sky-300 hover:text-white 
+                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]">
                             <button>Faith And Reason</button>
                         </Link>
                     </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <NavLink
                     to="/"
                     className={({ isActive }) =>
-                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 text-[15px] font-medium rounded-lg py-[12px] px-[10px]'
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lmx-3 g py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 text-[15px] font-medium rounded-lmx-3 g py-[12px] px-[10px]'
                     }
                 >
                     Home
@@ -80,7 +80,7 @@ const Navbar = () => {
                 <NavLink
                     to="/about"
                     className={({ isActive }) =>
-                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 font-medium rounded-lg py-[12px] px-[10px]'
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lmx-3 g py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800 font-medium rounded-lmx-3 g py-[12px] px-[10px]'
                     }
                 >
                     <button>About us</button>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 <NavLink
                     to="/contact"
                     className={({ isActive }) =>
-                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lg py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800  font-medium rounded-lg py-[12px] px-[10px]'
+                        isActive ? 'text-sky-500 hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center font-medium rounded-lmx-3 g py-[12px] px-[10px]' : 'hover:text-sky-500 md:w-[100px] lg:w-[110px] text-center text-slate-800  font-medium rounded-lmx-3 g py-[12px] px-[10px]'
                     }
                 >
                     Contact

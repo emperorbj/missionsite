@@ -20,9 +20,9 @@ const Contact = () => {
     }, []);
 
     return (
-        <section>
+        <section className="w-full">
             {/* <Navbar /> */}
-            <div className="flex flex-col-reverse lg:flex lg:flex-row gap-4 mt-[85px] lg:w-full h-full">
+            <div className="flex-col-reverse lg:flex lg:flex-row gap-4 mt-[85px] lg:w-full h-full">
                 <Forms />
                 <div className=" md:items-center md:justify-center lg:gap-4 flex flex-row lg:flex 
             lg:flex-col justify-center 
@@ -38,9 +38,9 @@ const Contact = () => {
                 </div>
             </div>
             <div className="w-full  h-[730px]">
-                <div className="w-[40%]">
+                {/* <div className="w-[40%]">
 
-                </div>
+                </div> */}
 
                 <div className="calendly-inline-widget" data-url="https://calendly.com/cwaku96/30min" style={{ minWidth: "400px", height: "700px" }}></div>
                 {/* <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> */}
