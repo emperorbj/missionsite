@@ -31,50 +31,50 @@ const Navbar = () => {
                     flex absolute items-center top-[61px] right-0 flex-col w-[160px] 
                     gap-2  h-[500px]  md:hidden'>
                         <Link to="/" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Home</button>
                         </Link>
                         <Link to="/about" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>About us</button>
                         </Link>
                         <Link to="/contact" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Contact</button>
                         </Link>
                         
                         <Link to="/whatsapp" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Join Us</button>
                         </Link>
 
 
                         <Link to="/event" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Global Outreach</button>
                         </Link>
                         <Link to="/blog" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Blogs</button>
                         </Link>
                         <Link to="/streams" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Streams</button>
                         </Link>
                         <Link to="/ebooks" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>E-Books</button>
                         </Link>
                         <Link to="/faith-reason" className="w-full hover:bg-sky-300 hover:text-white 
-                        text-center text-[12.5px] font-bold rounded-lg py-[12px] px-[10px]"
+                        text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Faith And Reason</button>
                         </Link>
