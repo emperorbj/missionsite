@@ -53,7 +53,7 @@ const About = () => {
                 <div className="w-full md:w-[60%] 
                 flex flex-col gap-3 px-2 md:px-[10px]
                     items-center justify-center">
-                    <h1 className="text-3xl text-blue-400 mt-8 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
+                    <h1 className="text-2xl md:text-3xl text-blue-400 mt-4 md:mt-1 font-semibold"><span className="flex">{" "}{text}</span></h1><Cursor />
                     <p className="text-center md:text-start font-myPoppins text-[14px] sm:text-[14px] 
                     md:text-[14px] lg:text-[18px] leading-6 sm:leading-6 md:leading-8 
                     px-4 md:px-1">
@@ -64,13 +64,12 @@ const About = () => {
                 </div>
             </div>
             <div className="h-screen flex-col flex 
-            sm:flex-row items-center justify-center space-y-4 md:space-y-0 
-                md:gap-5">
+            sm:flex-row items-center justify-center mt-8 md:mt-0 md:space-y-0 md:gap-5">
                 <div className="w-full px-3 py-4 flex items-center justify-center">
                     <CircularProgress />
                     <p className="text-lg sm:text-xl md:text-3xl text-sky-700 font-bold">+{" "}Events</p>
                 </div>
-                <div className="w-full px-4 y-4 flex items-center justify-center">
+                <div className="hidden md:flex w-full px-4 py-4 items-center justify-center">
                     <CircularProgressTwo />
                     <p className="text-lg sm:text-xl md:text-3xl text-sky-800 font-bold">+{" "}Outreaches</p>
                 </div>
