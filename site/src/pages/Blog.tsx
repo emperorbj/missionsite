@@ -50,49 +50,49 @@ const Blog = () => {
                             <div className="w-[50%] md:w-[65%] flex flex-col justify-center md:gap-2 lg:gap-3 
                             md:px-0 lg:px-[15px] h-[100%]">
                                 <a className="hover:text-sky-700" href="https://crossexamined.org/a-compassionate-response-to-alistair-beggs-bad-advice-on-lgbt-weddings/">
-                                    <h2 className="text-xl font-bold md:px-5 lg:px-0">
+                                    <h2 className="text-[16px] md:text-xl font-bold md:px-5 lg:px-0">
                                         A Compassionate Response to Alistair Begg’s ‘Bad Advice’ on LGBT Weddings
                                     </h2>
                                 </a>
-                                <div className="flex gap-2">
-                                    <p>By Juwon Adeoba</p>
-                                    <p>7th{" "}July,2024</p>
+                                <div className="flex text-[12px] gap-[3px]">
+                                    <p className="w-1/2">By Juwon Adeoba</p>
+                                    <p className="w-1/2">7th July,2024</p>
                                 </div>
                             </div>
                             {/* image-right-side-top-stories-container */}
-                            <div className="w-[50%] md:w-[35%] h-[100%]">
+                            <div className="w-[50%] md:w-[35%] h-fit-content">
                                 <img className="h-[100%] rounded-[8px] w-[100%] object-cover" src="https://crossexamined.org/wp-content/uploads/2024/06/CE-BLOG-COVER-JUNE-24-30-1080x675.jpg" alt="" />
                             </div>
                         </div>
                         <div className=" flex h-[30%]">
-                            <div className="w-[50%] md:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-[15px]">
+                            <div className="w-[50%] md:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-0 lg:px-[15px]">
                                 <a className="hover:text-sky-700" href="https://crossexamined.org/why-the-best-explanation-can-be-a-miracle/">
                                     <h2 className="text-xl font-bold md:px-5 lg:px-0">
                                         Why the Best Explanation Can Be a Miracle
                                     </h2>
                                 </a>
-                                <div className="flex gap-2">
-                                    <p>By Juwon Adeoba</p>
-                                    <p>7th{" "}July,2024</p>
+                                <div className="flex gap-[3px] text-[12px]">
+                                    <p className="w-1/2">By Juwon Adeoba</p>
+                                    <p className="w-1/2">7th July,2024</p>
                                 </div>
                             </div>
-                            <div className="w-[50%] md:w-[35%] h-[100%]">
+                            <div className="w-[50%] md:w-[35%] h-fit-content">
                                 <img className="h-[100%] rounded-[8px] w-[100%] object-cover" src="https://crossexamined.org/wp-content/uploads/2024/06/CE-BLOG-COVER-JUNE-17-23-1080x675.jpg" alt="" />
                             </div>
                         </div>
                         <div className=" flex h-[30%]">
-                            <div className="w-[50%] md:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-[15px]">
+                            <div className="w-[50%] md:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-0 lg:px-[15px]">
                                 <a className="hover:text-sky-700" href="https://crossexamined.org/what-philosophy-is-and-why-you-cant-avoid-it/">
                                     <h2 className="text-xl font-bold md:px-5 lg:px-0">
                                         Why the Best Explanation Can Be a Miracle
                                     </h2>
                                 </a>
-                                <div className="flex gap-2">
-                                    <p>By Juwon Adeoba</p>
-                                    <p>7th{" "}July,2024</p>
+                                <div className="flex gap-[3px] text-[12px]">
+                                    <p className="w-1/2">By Juwon Adeoba</p>
+                                    <p className="w-1/2">7th{" "}July,2024</p>
                                 </div>
                             </div>
-                            <div className="w-[50%] md:w-[35%] h-[100%]">
+                            <div className="w-[50%] md:w-[35%] h-fit-content">
                                 <img className="h-[100%] rounded-[8px] w-[100%] object-cover" src="https://crossexamined.org/wp-content/uploads/2024/05/CE-BLOG-COVER-What-Philosophy-Is-1080x675.jpg" alt="" />
                             </div>
                         </div>

@@ -95,7 +95,7 @@ const About = () => {
             <AboutLowerSection />
             <AboutMiddleDiv />
             <div>
-                <h1 className="text-3xl font-myWorkSans mt-[90px] text-center">What People Area Saying</h1>
+                <h1 className="text-3xl font-myWorkSans mt-[90px] text-center">What People Are Saying</h1>
             </div>
             <div className="mb-[40px] mx-3">
                 <MarqueeDemo />

@@ -18,10 +18,10 @@ const Streams = () => {
                 md:h-[45%] lg:h-[85%]">
                     {/* big top story right side */}
                     <div className="w-full h-[100%] md:h-[100%] md:w-full 
-                    lg:w-[50%] md:pr-5">
+                    lg:w-[50%] md:pr-5 lg:px-0 px-2">
                         {/* image container */}
-                        <div className="h-[100%]">
-                            <ReactPlayer className="object-cover"
+                        <div className="h-[100%] relative">
+                            <ReactPlayer className=" object-cover"
                             width="100%" height="100%"  url="https://www.youtube.com/watch?v=S7WBEJJlYWU"/>
                         </div>
                         {/* description container */}

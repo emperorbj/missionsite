@@ -17,7 +17,7 @@ const Home = () => {
             <Cards/>
             <div
             className='text-center font-bold font-myWorkSans text-xl my-[40px] pt-[50px]'>
-                OUR <span className='text-sky-400'>UPCOMING</span> PROGRAMS
+                OUR <span className='text-sky-400'>RECENT</span> PROGRAMS
             </div>
             <Upcoming/>
             <Teams/>

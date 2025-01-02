@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <nav  className='bg-white/30 backdrop-blur-lg relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[45px] z-30 transition-transform duration-300'>
             <NavLink to='/'>
-                <div className='w-[120px] h-[35px] px-[10px] rounded-xl  mx-10 text-3xl'>
+                <div className='w-[120px] h-[35px] px-[5px] rounded-xl  mx-2 lg:mx-10 text-3xl'>
                     <img className='h-full rounded-xl  w-full object-cover' src="/mlogo.jpg" alt="" />
                 </div>
             </NavLink>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 {openMenu &&
                     <div className='shadow-sm bg-sky-100 backdrop-blur-xl border border-slate-300 rounded-md mr-1 
                     flex absolute items-center top-[61px] right-0 flex-col w-[160px] 
-                    gap-2  h-[500px]  md:hidden'>
+                    gap-2  h-[440px]  md:hidden'>
                         <Link to="/" className="w-full hover:bg-sky-300 hover:text-white 
                         text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
@@ -46,11 +46,11 @@ const Navbar = () => {
                             <button>Contact</button>
                         </Link>
                         
-                        <Link to="/whatsapp" className="w-full hover:bg-sky-300 hover:text-white 
+                        {/* <Link to="/whatsapp" className="w-full hover:bg-sky-300 hover:text-white 
                         text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Join Us</button>
-                        </Link>
+                        </Link> */}
 
 
                         <Link to="/event" className="w-full hover:bg-sky-300 hover:text-white 
@@ -63,7 +63,7 @@ const Navbar = () => {
                         onClick={closeMenu}>
                             <button>Blogs</button>
                         </Link>
-                        <Link to="/streams" className="w-full hover:bg-sky-300 hover:text-white 
+                        <Link to="/stream" className="w-full hover:bg-sky-300 hover:text-white 
                         text-center text-[12.5px] font-semibold rounded-lg py-[12px] px-[10px]"
                         onClick={closeMenu}>
                             <button>Streams</button>

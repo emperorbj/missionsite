@@ -29,7 +29,7 @@ const AboutLowerSection = () => {
                         />
                     </div>
                     <div className='h-[100%] flex flex-col'>
-                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Our Vision</h1>
+                        <h1 className='text-3xl  font-semibold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Our Vision</h1>
                         <p className='text-lg md:text-lg lg:text-xl md:px-5 lg:px-[50px] mb-[40px]'>
                         Empowering believers globally to
                         fulfil the Great Commission with
@@ -61,7 +61,7 @@ const AboutLowerSection = () => {
                         />
                     </div>
                     <div className='h-[100%] flex flex-col'>
-                        <h1 className='text-3xl  font-bold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Mission</h1>
+                        <h1 className='text-3xl  font-semibold text-center pt-3 md:pt-1 lg:pt-[50px] my-[10px]'>Our Mission</h1>
                         <p className='text-lg md:text-lg lg:text-xl md:px-5 lg:px-[50px] mb-[40px]'>
                         Mobilize mission programs within Christian communities across campuses, denominations, 
                         and corporate settings by conducting training on soul-winning and disciple-making, 
