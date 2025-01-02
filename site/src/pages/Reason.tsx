@@ -65,7 +65,7 @@ const Reason = () => {
                     lg:flex-col px-[15px] gap-2 py-[4px]  
                     justify-center h-[100%]">
                         <h1 className="bg-slate-100 h-[10%] text-2xl mt-10 font-bold"> OUR TOP STORIES</h1>
-                        <div className="flex-col md:flex md:flex-row lg:flex-row 
+                        <div className="flex-col mt-3 md:flex md:flex-row lg:flex-row 
                         h-[60%] md:h-[35%] lg:h-[30%]">
                             {/* top stories left and right divs */}
                             <div className="md:w-[50%] lg:w-[65%] flex flex-col 
@@ -85,7 +85,7 @@ const Reason = () => {
                                 <img className="h-[100%] rounded-[8px] w-[100%] object-cover" src="https://crossexamined.org/wp-content/uploads/2024/06/CE-BLOG-COVER-JUNE-24-30-1080x675.jpg" alt="" />
                             </div>
                         </div>
-                        <div className="flex-col md:flex md:flex-row lg:flex-row 
+                        <div className="flex-col mt-5 md:flex md:flex-row lg:flex-row 
                         h-[60%] md:h-[35%] lg:h-[30%]">
                             <div className="md:w-[50%] lg:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-[15px]">
                                 <a className="hover:text-sky-700" href="https://crossexamined.org/why-the-best-explanation-can-be-a-miracle/">
@@ -102,7 +102,7 @@ const Reason = () => {
                                 <img className="h-[100%] rounded-[8px] w-[100%] object-cover" src="https://crossexamined.org/wp-content/uploads/2024/06/CE-BLOG-COVER-JUNE-17-23-1080x675.jpg" alt="" />
                             </div>
                         </div>
-                        <div className="flex-col md:flex md:flex-row lg:flex-row 
+                        <div className="flex-col mt-5 md:flex md:flex-row lg:flex-row 
                         h-[60%] md:h-[35%] lg:h-[30%]">
                             <div className="md:w-[50%] lg:w-[65%] h-[100%] flex flex-col justify-center gap-3 px-[15px]">
                                 <a className="hover:text-sky-700" href="https://crossexamined.org/what-philosophy-is-and-why-you-cant-avoid-it/">

@@ -18,8 +18,8 @@ const Navbar = () => {
 
         <nav  className='bg-white/30 backdrop-blur-lg relative md:fixed top-0 left-0 flex items-center justify-between w-full h-[45px] z-30 transition-transform duration-300'>
             <NavLink to='/'>
-                <div className='w-[100px]  px-[10px]  mx-10 text-3xl'>
-                    logo
+                <div className='w-[120px] h-[35px] px-[10px] rounded-xl  mx-10 text-3xl'>
+                    <img className='h-full rounded-xl  w-full object-cover' src="/mlogo.jpg" alt="" />
                 </div>
             </NavLink>
                 <div className=' block cursor-pointer md:hidden'>

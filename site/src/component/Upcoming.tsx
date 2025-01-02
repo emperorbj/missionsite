@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import {motion,Variants} from 'framer-motion'
 import {Button} from '@/components/ui/button'
+import { Link } from 'react-router-dom';
 
 const MotionButton = motion.create(Button);
 
@@ -60,14 +61,16 @@ const Upcoming = () => {
                     font-myWorkSans lg:px-[50px] mb-[40px]'>
                         A deep dive into the problem of evil and its implications for the believer. 
                     </p>
+                    <Link to="/contact">
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'
                         variants={buttonVariant}
                         whileHover="hover"
                         >
-                            Join us
+                            Register
                         </MotionButton>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -102,14 +105,16 @@ const Upcoming = () => {
                     <p className='text-xl px-5 md:text-lg lg:text-xl md:px-3 
                     lg:px-[50px] mb-[40px] font-myWorkSans'>A discourse on the trinity and its implications for the believer.
                     </p>
+                    <Link to="/contact">
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'
                         variants={buttonVariant}
                         whileHover="hover"
                         >
-                            Join us
+                            Register
                         </MotionButton>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -145,14 +150,16 @@ const Upcoming = () => {
                     lg:px-[50px] mb-[40px] font-myWorkSans'>
                         A powerful program that will equip you to be an effective witness of Christ. 
                     </p>
+                    <Link to="/contact">
                     <div className='flex items-center justify-center'> 
                         <MotionButton className='px-10 py-5'
                         variants={buttonVariant}
                         whileHover="hover"
                         >
-                            Join us
+                            Register
                         </MotionButton>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>

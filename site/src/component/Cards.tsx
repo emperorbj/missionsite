@@ -15,7 +15,7 @@ const Cards = () => {
             <div className='py-20'>
                 <motion.h1
                     className='text-2xl font-bold text-center font-myWorkSans'>
-                    OUR CORE<span className='text-sky-400'> MISSION</span> AND<span className='text-sky-400'>VISION</span>
+                    OUR CORE<span className='text-sky-400'> MISSION</span> AND <span className='text-sky-400'>VISION</span>
                 </motion.h1>
             </div>
             {/* card container */}
@@ -23,8 +23,8 @@ const Cards = () => {
             {/* <div className='flex-col gap-5 h-[1000px] md:flex md:flex-row md:gap-10 px-[30px] md:h-[500px]'> */}
             {/* Each card design */}
             <div
-                className='mx-1 md:mx-6 h-[1600px] px-2 gap-2 md:px-2  grid-cols-1 grid md:grid-cols-2 
-            lg:grid-cols-3 lg:gap-6 md:gap-5 md:h-[900px] lg:h-[500px]'>
+                className='mx-1 md:mx-6 h-[1000px] px-2 gap-2 md:px-2  grid-cols-1 grid md:grid-cols-2 
+            lg:grid-cols-3 lg:gap-2 md:gap-5 md:h-[900px] lg:h-[500px]'>
 
                 <motion.div
                     whileHover={{

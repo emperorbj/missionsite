@@ -3,14 +3,14 @@
 const team = [
     {
         id: 1,
-        name: "Ayorinde Daniel",
+        name: "Mr. Ayorinde Daniel",
         role: "President",
         image: "/profile4.jpg"
 
     },
     {
         id: 2,
-        name: "Rachael Cane",
+        name: "Oladokun Rachel",
         role: "Head of Communications",
         image: "/profile1.jpg"
 
@@ -19,7 +19,7 @@ const team = [
         id: 3,
         name: "Adeoba Adejuwon",
         role: "Head of Missions and Outreach",
-        image: "/profile3.jpg",
+        image: "/juwon.jpg",
 
     },
     {
@@ -33,12 +33,12 @@ const team = [
         id: 5,
         name: "Opatola Bolaji",
         role: "Training Facilitator",
-        image: "/profile6.jpg"
+        image: "/bj.jpg"
 
     },
     {
         id: 6,
-        name: "Ayorinde Moyinoluwa",
+        name: "Mrs. Daniel Moyinoluwa",
         role: "Head of Prayer Department",
         image: "/moyin.jpg",
 
