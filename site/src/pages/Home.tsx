@@ -16,7 +16,7 @@ const Home = () => {
             {/* <Sponsors/> */}
             <Cards/>
             <div
-            className='text-center font-bold font-myWorkSans text-xl my-[40px] pt-[50px]'>
+            className='text-center font-bold font-myWorkSans text-xl my-[5px] pt-[10px]'>
                 OUR <span className='text-sky-400'>RECENT</span> PROGRAMS
             </div>
             <Upcoming/>
